@@ -130,5 +130,5 @@
 ---
 
 ## PHỤ LỤC
-* **Phụ lục A - Nhật ký Prompt (Prompt Log):** [prompt_log.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/prompt_logs/prompt_log.md)
+* **Phụ lục A - Nhật ký Prompt (Prompt Log):** [20260603_Gemini_prompt.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/prompt_logs/20260603_Gemini_prompt.md)
 * **Phụ lục B - Báo cáo Kiểm toán AI (AI Audit Report):** [AI-02_AI_Audit_Report.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/ai_declarations/AI-02_AI_Audit_Report.md)
