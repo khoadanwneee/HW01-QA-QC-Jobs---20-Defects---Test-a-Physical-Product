@@ -124,5 +124,6 @@
 
 ---
 
-## PHỤ LỤC: AI Audit Report
-*(Nội dung chi tiết được thực hiện và đính kèm từ file [AI-02_AI_Audit_Report.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/ai_declarations/AI-02_AI_Audit_Report.md))*
+## PHỤ LỤC
+* **Phụ lục A - Nhật ký Prompt (Prompt Log):** [prompt_log.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/prompt_logs/prompt_log.md)
+* **Phụ lục B - Báo cáo Kiểm toán AI (AI Audit Report):** [AI-02_AI_Audit_Report.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/ai_declarations/AI-02_AI_Audit_Report.md)
