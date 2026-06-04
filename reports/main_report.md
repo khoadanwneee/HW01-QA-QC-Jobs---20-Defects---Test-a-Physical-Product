@@ -47,6 +47,46 @@ _(Tìm 10 tin tuyển dụng QA/QC được đăng trong vòng 60 ngày. Tối t
 9. **Tin số 9 (Nakivo):** AI hỗ trợ viết các đoạn mã script tự động hóa hạ tầng ảo nhanh chóng. Tuy nhiên, việc chuẩn đoán lỗi khôi phục dữ liệu ở cấp độ phần cứng và ảo hóa sâu đòi hỏi kỹ sư QA có kinh nghiệm hệ thống chuyên sâu phân tích thực tế.
 10. **Tin số 10 (FPT Software):** AI hỗ trợ quét mã nguồn và tự động phát hiện vi phạm quy tắc lập trình tiêu chuẩn. Mặc dù vậy, việc kiểm tra sự tương tác thực tế giữa các thành viên dự án và đánh giá sự tuân thủ quy trình ở cấp độ con người vẫn bắt buộc do chuyên viên PQA thực hiện.
 
+### Sơ đồ tư duy (Mindmap) Vai trò QA/QC & Phân tích 3 lỗi của AI (CLO G9.1)
+
+Dưới đây là sơ đồ tư duy mô tả chi tiết vai trò QA/QC cùng quy trình kiểm thử phần mềm chuẩn ISTQB, kết hợp phân tích và đính chính các sai sót phổ biến của các mô hình AI:
+
+#### 1. Sơ đồ tư duy bằng Mermaid
+
+```mermaid
+mindmap
+  root((Vai trò QA/QC & Quy trình Kiểm thử))
+    Quality Assurance QA - Quy trình
+      Thiết lập quy trình phát triển
+      Định nghĩa tiêu chuẩn chất lượng
+      Kiểm soát quy trình Audit
+      Cải tiến liên tục quy trình
+    Quality Control QC - Sản phẩm
+      Thiết kế Test Case
+      Thực thi kiểm thử
+      Báo cáo lỗi Defect Report
+      Xác minh sửa lỗi Re-testing
+    Quy trình Kiểm thử chuẩn ISTQB
+      1. Lập kế hoạch kiểm thử Test Planning
+      2. Giám sát và kiểm soát Test Monitoring and Control
+      3. Phân tích kiểm thử Test Analysis
+      4. Thiết kế kiểm thử Test Design
+      5. Triển khai kiểm thử Test Implementation
+      6. Thực thi kiểm thử Test Execution
+      7. Hoàn thành kiểm thử Test Completion
+```
+
+#### 2. Phân tích và hiệu chỉnh 3 sai sót cốt lõi của AI:
+
+- **Sai sót 1 (Nhầm lẫn giữa QA và QC):** AI thường liệt kê các hoạt động kiểm thử trực tiếp như "chạy thử nghiệm" (test execution) vào vai trò QA và "xây dựng quy trình phát triển phần mềm" vào vai trò QC. 
+  - *Hiệu chỉnh chuẩn ISTQB:* QA tập trung vào cải tiến quy trình để ngăn ngừa lỗi (preventive), còn QC tập trung vào kiểm tra sản phẩm để phát hiện lỗi (corrective).
+- **Sai sót 2 (Gộp hoặc sai thứ tự các giai đoạn của quy trình ISTQB):** AI thường gộp giai đoạn "Phân tích kiểm thử" (Test Analysis) và "Thiết kế kiểm thử" (Test Design) làm một hoặc đặt "Thực thi kiểm thử" (Test Execution) trước "Triển khai kiểm thử" (Test Implementation).
+  - *Hiệu chỉnh chuẩn ISTQB:* Theo ISTQB CTFL v4.0, đây là các giai đoạn tách biệt; Test Analysis nhằm xác định "cái gì cần test", Test Design xác định "test như thế nào", và Test Implementation chuẩn bị môi trường/dữ liệu trước khi Test Execution diễn ra.
+- **Sai sót 3 (Coi Debugging là một phần của Testing):** AI thường đưa "Sửa lỗi/Debugging" vào danh sách các hoạt động của kiểm thử viên (Tester).
+  - *Hiệu chỉnh chuẩn ISTQB:* Theo ISTQB CTFL v4.0, kiểm thử (Testing) và gỡ lỗi (Debugging) là hai hoạt động khác biệt. Tester thực hiện kiểm thử để phát hiện lỗi, còn lập trình viên (Developer) thực hiện gỡ lỗi để tìm nguyên nhân gốc, sửa lỗi và chạy thử lại.
+
+*(Chi tiết xem thêm tại tệp tin sơ đồ tư duy: [mindmap.md](mindmap.md))*
+
 ---
 
 ## PHẦN 2: 20 Software Defects 2022–2026
@@ -329,7 +369,10 @@ Tóm lại, bài học kinh nghiệm tôi rút ra là AI chỉ đóng vai trò t
 ## PHỤ LỤC
 
 - **Phụ lục A - Nhật ký Prompt (Prompt Log):** [20260603_Gemini_prompt.md](../assets/prompt_logs/20260603_Gemini_prompt.md)
-- **Phụ lục B - Báo cáo Kiểm toán AI (AI Audit Report):** [AI-02_AI_Audit_Report.md](../ai_declarations/AI-02_AI_Audit_Report.md)
+- **Phụ lục B - Báo cáo Kiểm toán AI (AI Audit Report - AI-02):** [[AI-02] - FIT@HCMUS - AI Audit Report_En.docx.md](../ai_declarations/%5BAI-02%5D%20-%20FIT@HCMUS%20-%20AI%20Audit%20Report_En.docx.md)
+- **Phụ lục C - Khai báo Sử dụng AI (AI Disclosure Form - AI-03):** [[AI-03] - FIT@HCMUS - AI Disclosure Form_En.docx.md](../ai_declarations/%5BAI-03%5D%20-%20FIT@HCMUS%20-%20AI%20Disclosure%20Form_En.docx.md)
+- **Phụ lục D - Danh mục Bảo mật và Sử dụng AI có Trách nhiệm (AI Privacy Checklist - AI-05):** [[AI-05] - FIT@HCMUS - AI Privacy Checklist_En.docx.md](../ai_declarations/%5BAI-05%5D%20-%20FIT@HCMUS%20-%20AI%20Privacy%20Checklist_En.docx.md)
+- **Phụ lục E - Sơ đồ tư duy (Mindmap) Vai trò QA/QC & ISTQB:** [mindmap.md](mindmap.md)
 
 ---
 
