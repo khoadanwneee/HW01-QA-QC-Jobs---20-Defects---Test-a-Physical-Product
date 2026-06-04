@@ -246,46 +246,45 @@ _(Tìm 20 lỗi phần mềm được công bố từ 2022-2026. Tối thiểu 5
 - **Số sê-ri (Serial Number):** `43XXXX4` (Mã vạch phụ: `893600XXXX834` - đã che 4 ký tự ở giữa)
 - **Hình ảnh minh chứng:**
   ![Thiết bị và Thẻ sinh viên](../assets/req3_physical_product/evidence/device_studentcard.jpg)
-  _(Ảnh chụp thực tế quạt đứng Asiavina D16022-DV0 cùng thẻ sinh viên trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM trong cùng một khung hình)_
+  *(Ảnh chụp thực tế quạt đứng Asiavina D16022-DV0 cùng thẻ sinh viên trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM trong cùng một khung hình)*
 
 ### 2. Tổng quan 15 Test Cases
 
-| TC ID    | Tên Test Case / Mục tiêu                                                                    | Loại Test     | Kết quả mong đợi                                                      | Kết quả thực tế                                                                                                                 | Kết quả (Verdict) |
-| :------- | :------------------------------------------------------------------------------------------ | :------------ | :-------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| **TC01** | Kiểm tra tính năng Bật/Tắt bằng nút bấm vật lý                                              | Functional    | Quạt khởi động ở mức 1 và tắt ổn định                                 |                                                                                                                                 |                   |
-| **TC02** | Kiểm tra chức năng thay đổi tốc độ gió từ mức 1 đến mức 3                                   | Functional    | Thay đổi tốc độ phản hồi đúng trạng thái phím cơ                      |                                                                                                                                 |                   |
-| **TC03** | Kiểm tra xoay tu năng kết hợp tốc độ 3                                                      | Functional    | Xoay mượt mà, không tiếng động cơ học lạ                              |                                                                                                                                 |                   |
-| **TC04** | Kiểm tra độ nhạy và cơ chế cơ học phím bấm                                                  | Functional    | Nhấn phím tốc độ mới, phím cũ tự động giải phóng                      |                                                                                                                                 |                   |
-| **TC05** | Kiểm tra xoay tu năng liên tục (Oscillation Wear Test)                                      | Reliability   | Xoay đảo chiều mượt mà ở các góc biên trái/phải                       |                                                                                                                                 |                   |
-| **TC06** | Kiểm tra độ ổn định ren khóa chiều cao dưới lực rung                                        | Reliability   | Thân quạt giữ độ cao 1.2m cố định khi chạy rung                       |                                                                                                                                 |                   |
-| **TC07** | Kiểm tra chạy tải cao liên tục và ngắt quá nhiệt                                            | Safety        | Động cơ chạy ổn định hoặc ngắt bảo vệ an toàn cuộn dây                |                                                                                                                                 |                   |
-| **TC08** | Kiểm tra độ vững chãi đế quạt trên sàn phẳng                                                | Stability     | Đế vững chãi, quạt bám mặt sàn không rung lắc quá mức                 |                                                                                                                                 |                   |
-| **TC09** | Kiểm tra độ vững chãi khi đặt quạt trên vật cao 10cm                                        | Physical Edge | Quạt đứng vững, không bị mất thăng bằng hay đổ ngã                    | Khi quạt chạy tốc độ lớn nhất và xoay tu năng, lực rung cơ học và lực ly tâm làm quạt mất trọng tâm và đổ ngã khỏi vật cao 10cm |     **FAIL**      |
-| **TC10** | Kiểm tra sự ổn định nguồn điện khi di chuyển quạt khiến dây nguồn dịch chuyển (Edge Case 2) | Physical Edge | Kết nối nguồn ổn định, quạt tiếp tục chạy bình thường không gián đoạn | Quạt sẽ tự tắt vì dây nguồn đã bị cong và dẫn đến quạt không kết nối được với nguồn điện                                        |     **FAIL**      |
-| **TC11** | Kiểm tra ngắt hoàn toàn hoạt động khi tắt quạt                                              | Physical Edge | Dừng ngay lập tức, cánh quạt và tu năng ngừng xoay                    | Cánh quạt dừng xoay nhưng quạt vẫn xoay ngang do lỗi đấu nối dây mạch điện                                                      |     **FAIL**      |
-| **TC12** | Kiểm tra túp năng bật/tắt liên tục nhiều lần                                                | Functional    | Cơ cấu bắt khớp và nhả khớp tu năng mượt mà                           |                                                                                                                                 |                   |
-| **TC13** | Kiểm tra độ cứng lồng quạt kim loại bảo vệ                                                  | Safety        | Không biến dạng chạm cánh khi tác dụng lực nhẹ (~20N)                 |                                                                                                                                 |                   |
-| **TC14** | Kiểm tra cơ cấu khớp xoay đứng đầu quạt                                                     | Functional    | Giữ nguyên nấc điều chỉnh ngẩng/cúi của đầu quạt                      |                                                                                                                                 |                   |
-| **TC15** | Kiểm tra độ ồn động cơ ở khoảng cách 1m                                                     | Performance   | Độ ồn ở mức 1 <38dB, mức 2 <45dB, mức 3 <52dB                         |                                                                                                                                 |                   |
+*(Bảng tổng hợp từ file Excel [test_cases_checklist.xlsx](../spreadsheet/test_cases_checklist.xlsx))*
+
+| TC ID | Tên Test Case / Mục tiêu | Loại Test | Kết quả mong đợi | Kết quả thực tế | Kết quả (Verdict) |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| **TC01** | Kiểm tra tính năng Bật/Tắt bằng nút bấm vật lý | Functional | Quạt khởi động ở mức 1 và tắt ổn định | [PASS] Quạt bật và tắt bình thường khi bấm các phím tương ứng | **PASS** |
+| **TC02** | Kiểm tra chức năng thay đổi tốc độ gió từ mức 1 đến mức 3 | Functional | Thay đổi tốc độ phản hồi đúng trạng thái phím cơ | [PASS] Tốc độ phản hồi tốt khi nhấn phím cơ và các phím tự nảy chính xác | **PASS** |
+| **TC03** | Kiểm tra xoay tu năng kết hợp tốc độ 3 | Functional | Xoay mượt mà, không tiếng động cơ học lạ | [PASS] Tu năng xoay ngang mượt mà, không phát ra tiếng động cơ học lạ | **PASS** |
+| **TC04** | Kiểm tra độ nhạy và cơ chế cơ học phím bấm | Functional | Nhấn phím tốc độ mới, phím cũ tự động giải phóng | [PASS] Các phím cơ phản hồi nhạy, phím cũ tự nảy lên mượt mà khi nhấn phím mới | **PASS** |
+| **TC05** | Kiểm tra xoay tu năng liên tục (Oscillation Wear Test) | Reliability | Xoay đảo chiều mượt mà ở các góc biên trái/phải | [PASS] Tu năng cơ bắt khớp và đảo chiều mượt mà ở các góc biên | **PASS** |
+| **TC06** | Kiểm tra độ ổn định ren khóa chiều cao dưới lực rung | Reliability | Thân quạt giữ độ cao 1.2m cố định khi chạy rung | [FAIL] Kết quả không ổn định, khi điều chỉnh tăng chiều cao quá mức thì thân quạt bắt đầu rung lắc tương đối mạnh khi hoạt động, có thể dẫn đến ngã đổ quạt | **FAIL** |
+| **TC07** | Kiểm tra chạy tải cao liên tục và ngắt quá nhiệt | Safety | Động cơ chạy ổn định hoặc ngắt bảo vệ an toàn cuộn dây | [PASS] Động cơ hoạt động liên tục ổn định trong phòng kín nóng, không bị quá nhiệt | **PASS** |
+| **TC08** | Kiểm tra độ vững chãi đế quạt trên sàn phẳng | Stability | Đế vững chãi, quạt bám mặt sàn không rung lắc quá mức | [PASS] Đế quạt bám chắc và đứng vững vàng trên sàn phẳng | **PASS** |
+| **TC09** | Kiểm tra độ vững chãi khi đặt quạt trên vật cao 10cm | Physical Edge | Quạt đứng vững, không bị mất thăng bằng hay đổ ngã | [FAIL] Khi quạt chạy tốc độ lớn nhất và xoay tu năng, lực rung cơ học và lực ly tâm làm quạt mất trọng tâm và đổ ngã khỏi vật cao 10cm | **FAIL** |
+| **TC10** | Kiểm tra sự ổn định nguồn điện khi di chuyển quạt khiến dây nguồn dịch chuyển (Edge Case 2) | Physical Edge | Kết nối nguồn ổn định, quạt tiếp tục chạy bình thường không gián đoạn | [FAIL] Kết quả thực tế quạt sẽ tự tắt vì dây nguồn đã bị cong và dẫn đến quạt không kết nối được với nguồn điện | **FAIL** |
+| **TC11** | Kiểm tra ngắt hoàn toàn hoạt động khi tắt quạt | Physical Edge | Dừng ngay lập tức, cánh quạt và tu năng ngừng xoay | [FAIL] Cánh quạt dừng xoay nhưng quạt vẫn xoay ngang do lỗi đấu nối dây điện mạch điều khiển điều hướng khiến mô-tơ đảo tiếp tục có điện | **FAIL** |
+| **TC12** | Kiểm tra túp năng bật/tắt liên tục nhiều lần | Functional | Cơ cấu bắt khớp và nhả khớp tu năng mượt mà | [FAIL] Hoạt động không ổn định. Khi thực hiện giật/nhả tu năng và úp mở (ngẩng/cúi) liên tục thì cánh quạt có thể va chạm với lồng bảo vệ dẫn đến nguy hiểm cho người dùng | **FAIL** |
+| **TC13** | Kiểm tra độ cứng lồng quạt kim loại bảo vệ | Safety | Không biến dạng chạm cánh khi tác dụng lực nhẹ (~20N) | [PASS] Lồng quạt thép sơn tĩnh điện chịu lực tốt, không biến dạng chạm cánh | **PASS** |
+| **TC14** | Kiểm tra cơ cấu khớp xoay đứng đầu quạt | Functional | Giữ nguyên nấc điều chỉnh ngẩng/cúi của đầu quạt | [PASS] Đầu quạt định vị góc ngẩng/cúi chắc chắn, không bị xê dịch tự do khi chạy tốc độ cao | **PASS** |
+| **TC15** | Kiểm tra độ ồn động cơ ở khoảng cách 1m | Performance | Độ ồn ở mức 1 <38dB, mức 2 <45dB, mức 3 <52dB | [PASS] Độ ồn đo được ở khoảng cách 1m lần lượt là: 36dB (Silent), 43dB, 49dB (đạt chuẩn kỹ thuật thiết kế) | **PASS** |
 
 ### 3. Danh sách 3 Edge Cases mà AI không tìm ra
 
-#### Edge Case 1: Cộng hưởng rung lắc cơ học gây tự dịch chuyển vị trí quạt (Walk/Drift) trên bề mặt nghiêng trơn trượt
-
-- **Mô tả mục tiêu kiểm thử:** Kiểm thử độ ổn định cơ học vật lý của quạt đứng khi hoạt động ở công suất tối đa (tốc độ 3) kết hợp xoay tu năng trên bề mặt sàn gạch men dốc nghiêng 2 độ và dính nước trơn.
+#### Edge Case 1: Rung lắc mất trọng tâm cơ học gây đổ ngã khi đặt đế quạt không phẳng trên bục cao 10cm
+- **Mô tả mục tiêu kiểm thử:** Kiểm thử độ vững chãi và cân bằng động của quạt đứng khi đặt đế quạt trên một bục gỗ hoặc vật thể cao khoảng 10cm có diện tích nhỏ hơn đế quạt và bật hoạt động ở tốc độ lớn nhất (tốc độ 3) kết hợp tu năng xoay ngang.
 - **Minh chứng ảnh đoạn chat AI bỏ sót:**
   ![Đoạn chat AI bỏ sót Edge Case 1](../assets/req3_physical_product/evidence/AI_miss_test_case.png)
-- **Giải thích lý do AI bỏ sót:** AI không hiểu được động lực học chất lưu, lực quán tính ly tâm thực tế từ cánh quạt và tu năng cơ học, cũng như sự suy giảm ma sát đột ngột giữa chân đế cao su của quạt và sàn nhà trơn trượt có độ dốc. AI chỉ tập trung vào các trường hợp bề mặt phẳng tĩnh lý tưởng và bỏ qua các yếu tố môi trường động phức tạp tác động lên phần cứng vật lý.
+- **Giải thích lý do AI bỏ sót:** AI không thể phát hiện lỗi này vì nó không có nhận thức vật lý thực tế về vị trí trọng tâm của thiết bị quạt cao 1.2m và sự tác động của lực cơ học ly tâm phát sinh khi tu năng xoay trên một diện tích đế nâng đỡ cao 10cm không thăng bằng trong không gian 3D. AI mặc định giả định thiết bị luôn được đặt trên mặt phẳng thăng bằng lý tưởng hoàn hảo.
 
 #### Edge Case 2: Tiếp điểm nguồn điện chập chờn / mất kết nối khi di chuyển quạt làm dây nguồn uốn cong dịch chuyển
-
 - **Mô tả mục tiêu kiểm thử:** Kiểm thử độ tin cậy của kết nối điện và dây nguồn khi dịch chuyển vị trí quạt đứng khiến dây nguồn dịch chuyển, uốn cong cơ học ở phần đầu giắc cắm hoặc đuôi phích cắm.
 - **Minh chứng ảnh đoạn chat AI bỏ sót:**
   ![Đoạn chat AI bỏ sót Edge Case 2](../assets/req3_physical_product/evidence/AI_miss_test_case.png)
 - **Giải thích lý do AI bỏ sót:** AI không thể phát hiện lỗi này vì đây là hành vi lỗi vật lý phát sinh do sự uốn cong biến dạng cơ học của dây nguồn và tiếp xúc cơ học thực tế tại vị trí giắc cắm trong không gian thực. AI chỉ hoạt động dựa trên các tài liệu lý thuyết và kịch bản tĩnh phần mềm, do đó không thể dự đoán được tình trạng tiếp xúc nguồn điện phụ thuộc vào linh kiện vật lý thực tế của thiết bị.
 
 #### Edge Case 3: Trạng thái không đồng bộ khi tắt nguồn quạt khiến cánh quạt dừng nhưng quạt vẫn xoay ngang
-
 - **Mô tả mục tiêu kiểm thử:** Kiểm thử cơ chế ngắt nguồn và đồng bộ tắt hoàn toàn của quạt khi nhấn phím OFF khi quạt đang hoạt động ở tốc độ 2 kết hợp bật tu năng xoay ngang.
 - **Minh chứng ảnh đoạn chat AI bỏ sót:**
   ![Đoạn chat AI bỏ sót Edge Case 3](../assets/req3_physical_product/evidence/AI_miss_test_case.png)
@@ -293,17 +292,14 @@ _(Tìm 20 lỗi phần mềm được công bố từ 2022-2026. Tối thiểu 5
 
 ### 4. Video Thực thi Kiểm thử
 
-_(Quay video ngắn dưới 60 giây cho 5 test cases lỗi trên thiết bị thật, có giọng thuyết minh cá nhân)_
+*(Quay video ngắn dưới 60 giây cho các test cases lỗi trên thiết bị thật, có giọng thuyết minh cá nhân)*
 
 - **Danh sách Link video (YouTube Unlisted):**
-  1. [Video TC03 - Phát hiện tiếng kêu rè rè cơ học trục động cơ tốc độ 3 khi xoay] (Link: https://youtu.be/...)
-  2. [Video TC04 - Phát hiện lỗi cơ học kẹt cứng phím số 2 không nảy lên] (Link: https://youtu.be/...)
-  3. [Video TC05 - Phát hiện lỗi bánh răng tu năng trượt kêu cạch cạch cản trở xoay biên] (Link: https://youtu.be/...)
-  4. [Video TC06 - Phát hiện lỗi trượt ren nhựa siết cổ làm sụt độ cao quạt] (Link: https://youtu.be/...)
-  5. [Video TC07 - Phát hiện lỗi đứt cầu chì nhiệt động cơ sau 4 giờ chạy tải cao] (Link: https://youtu.be/...)
-  6. [Video TC09 - Phát hiện quạt bị mất thăng bằng và đổ ngã khi đặt trên bục gỗ cao 10cm] (Link: https://youtu.be/...)
-  7. [Video TC10 - Phát hiện quạt tự tắt khi di chuyển do dây nguồn bị uốn cong cơ học] (Link: https://youtu.be/...)
-  8. [Video TC11 - Phát hiện cánh quạt dừng xoay nhưng quạt vẫn xoay ngang do lỗi mạch nguồn] (Link: https://youtu.be/...)
+  1. [Video TC06 - Phát hiện lỗi rung lắc mạnh và ngã đổ khi tăng chiều cao quá mức] (Link: https://youtu.be/...)
+  2. [Video TC09 - Phát hiện quạt bị mất thăng bằng và đổ ngã khi đặt trên bục gỗ cao 10cm] (Link: https://youtu.be/...)
+  3. [Video TC10 - Phát hiện quạt tự tắt khi di chuyển do dây nguồn bị uốn cong cơ học] (Link: https://youtu.be/...)
+  4. [Video TC11 - Phát hiện cánh quạt dừng xoay nhưng quạt vẫn xoay ngang do lỗi mạch nguồn] (Link: https://youtu.be/...)
+  5. [Video TC12 - Phát hiện cánh quạt va chạm lồng bảo vệ khi giật/nhả tu năng và úp mở liên tục] (Link: https://youtu.be/...)
 
 ## PHẦN 4: Phê bình AI
 
