@@ -246,45 +246,48 @@ _(Tìm 20 lỗi phần mềm được công bố từ 2022-2026. Tối thiểu 5
 - **Số sê-ri (Serial Number):** `43XXXX4` (Mã vạch phụ: `893600XXXX834` - đã che 4 ký tự ở giữa)
 - **Hình ảnh minh chứng:**
   ![Thiết bị và Thẻ sinh viên](../assets/req3_physical_product/evidence/device_studentcard.jpg)
-  *(Ảnh chụp thực tế quạt đứng Asiavina D16022-DV0 cùng thẻ sinh viên trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM trong cùng một khung hình)*
+  _(Ảnh chụp thực tế quạt đứng Asiavina D16022-DV0 cùng thẻ sinh viên trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM trong cùng một khung hình)_
 
 ### 2. Tổng quan 15 Test Cases
 
-*(Bảng tổng hợp từ file Excel [test_cases_checklist.xlsx](../spreadsheet/test_cases_checklist.xlsx))*
+_(Bảng tổng hợp từ file Excel [test_cases_checklist.xlsx](../spreadsheet/test_cases_checklist.xlsx))_
 
-| TC ID | Tên Test Case / Mục tiêu | Loại Test | Kết quả mong đợi | Kết quả thực tế | Kết quả (Verdict) |
-| :--- | :--- | :--- | :--- | :--- | :---: |
-| **TC01** | Kiểm tra tính năng Bật/Tắt bằng nút bấm vật lý | Functional | Quạt khởi động ở mức 1 và tắt ổn định | [PASS] Quạt bật và tắt bình thường khi bấm các phím tương ứng | **PASS** |
-| **TC02** | Kiểm tra chức năng thay đổi tốc độ gió từ mức 1 đến mức 3 | Functional | Thay đổi tốc độ phản hồi đúng trạng thái phím cơ | [PASS] Tốc độ phản hồi tốt khi nhấn phím cơ và các phím tự nảy chính xác | **PASS** |
-| **TC03** | Kiểm tra xoay tu năng kết hợp tốc độ 3 | Functional | Xoay mượt mà, không tiếng động cơ học lạ | [PASS] Tu năng xoay ngang mượt mà, không phát ra tiếng động cơ học lạ | **PASS** |
-| **TC04** | Kiểm tra độ nhạy và cơ chế cơ học phím bấm | Functional | Nhấn phím tốc độ mới, phím cũ tự động giải phóng | [PASS] Các phím cơ phản hồi nhạy, phím cũ tự nảy lên mượt mà khi nhấn phím mới | **PASS** |
-| **TC05** | Kiểm tra xoay tu năng liên tục (Oscillation Wear Test) | Reliability | Xoay đảo chiều mượt mà ở các góc biên trái/phải | [PASS] Tu năng cơ bắt khớp và đảo chiều mượt mà ở các góc biên | **PASS** |
-| **TC06** | Kiểm tra độ ổn định ren khóa chiều cao dưới lực rung | Reliability | Thân quạt giữ độ cao 1.2m cố định khi chạy rung | [FAIL] Kết quả không ổn định, khi điều chỉnh tăng chiều cao quá mức thì thân quạt bắt đầu rung lắc tương đối mạnh khi hoạt động, có thể dẫn đến ngã đổ quạt | **FAIL** |
-| **TC07** | Kiểm tra chạy tải cao liên tục và ngắt quá nhiệt | Safety | Động cơ chạy ổn định hoặc ngắt bảo vệ an toàn cuộn dây | [PASS] Động cơ hoạt động liên tục ổn định trong phòng kín nóng, không bị quá nhiệt | **PASS** |
-| **TC08** | Kiểm tra độ vững chãi đế quạt trên sàn phẳng | Stability | Đế vững chãi, quạt bám mặt sàn không rung lắc quá mức | [PASS] Đế quạt bám chắc và đứng vững vàng trên sàn phẳng | **PASS** |
-| **TC09** | Kiểm tra độ vững chãi khi đặt quạt trên vật cao 10cm | Physical Edge | Quạt đứng vững, không bị mất thăng bằng hay đổ ngã | [FAIL] Khi quạt chạy tốc độ lớn nhất và xoay tu năng, lực rung cơ học và lực ly tâm làm quạt mất trọng tâm và đổ ngã khỏi vật cao 10cm | **FAIL** |
-| **TC10** | Kiểm tra sự ổn định nguồn điện khi di chuyển quạt khiến dây nguồn dịch chuyển (Edge Case 2) | Physical Edge | Kết nối nguồn ổn định, quạt tiếp tục chạy bình thường không gián đoạn | [FAIL] Kết quả thực tế quạt sẽ tự tắt vì dây nguồn đã bị cong và dẫn đến quạt không kết nối được với nguồn điện | **FAIL** |
-| **TC11** | Kiểm tra ngắt hoàn toàn hoạt động khi tắt quạt | Physical Edge | Dừng ngay lập tức, cánh quạt và tu năng ngừng xoay | [FAIL] Cánh quạt dừng xoay nhưng quạt vẫn xoay ngang do lỗi đấu nối dây điện mạch điều khiển điều hướng khiến mô-tơ đảo tiếp tục có điện | **FAIL** |
-| **TC12** | Kiểm tra túp năng bật/tắt liên tục nhiều lần | Functional | Cơ cấu bắt khớp và nhả khớp tu năng mượt mà | [FAIL] Hoạt động không ổn định. Khi thực hiện giật/nhả tu năng và úp mở (ngẩng/cúi) liên tục thì cánh quạt có thể va chạm với lồng bảo vệ dẫn đến nguy hiểm cho người dùng | **FAIL** |
-| **TC13** | Kiểm tra độ cứng lồng quạt kim loại bảo vệ | Safety | Không biến dạng chạm cánh khi tác dụng lực nhẹ (~20N) | [PASS] Lồng quạt thép sơn tĩnh điện chịu lực tốt, không biến dạng chạm cánh | **PASS** |
-| **TC14** | Kiểm tra cơ cấu khớp xoay đứng đầu quạt | Functional | Giữ nguyên nấc điều chỉnh ngẩng/cúi của đầu quạt | [PASS] Đầu quạt định vị góc ngẩng/cúi chắc chắn, không bị xê dịch tự do khi chạy tốc độ cao | **PASS** |
-| **TC15** | Kiểm tra độ ồn động cơ ở khoảng cách 1m | Performance | Độ ồn ở mức 1 <38dB, mức 2 <45dB, mức 3 <52dB | [PASS] Độ ồn đo được ở khoảng cách 1m lần lượt là: 36dB (Silent), 43dB, 49dB (đạt chuẩn kỹ thuật thiết kế) | **PASS** |
+| TC ID    | Tên Test Case / Mục tiêu                                                      | Loại Test     | Kết quả mong đợi                                                      | Kết quả thực tế                                                                                                                                                            | Kết quả (Verdict) |
+| :------- | :---------------------------------------------------------------------------- | :------------ | :-------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
+| **TC01** | Kiểm tra tính năng Bật/Tắt bằng nút bấm vật lý                                | Functional    | Quạt khởi động ở mức 1 và tắt ổn định                                 | [PASS] Quạt bật và tắt bình thường khi bấm các phím tương ứng                                                                                                              |     **PASS**      |
+| **TC02** | Kiểm tra chức năng thay đổi tốc độ gió từ mức 1 đến mức 3                     | Functional    | Thay đổi tốc độ phản hồi đúng trạng thái phím cơ                      | [PASS] Tốc độ phản hồi tốt khi nhấn phím cơ và các phím tự nảy chính xác                                                                                                   |     **PASS**      |
+| **TC03** | Kiểm tra xoay tu năng kết hợp tốc độ 3                                        | Functional    | Xoay mượt mà, không tiếng động cơ học lạ                              | [PASS] Tu năng xoay ngang mượt mà, không phát ra tiếng động cơ học lạ                                                                                                      |     **PASS**      |
+| **TC04** | Kiểm tra độ nhạy và cơ chế cơ học phím bấm                                    | Functional    | Nhấn phím tốc độ mới, phím cũ tự động giải phóng                      | [PASS] Các phím cơ phản hồi nhạy, phím cũ tự nảy lên mượt mà khi nhấn phím mới                                                                                             |     **PASS**      |
+| **TC05** | Kiểm tra xoay tu năng liên tục (Oscillation Wear Test)                        | Reliability   | Xoay đảo chiều mượt mà ở các góc biên trái/phải                       | [PASS] Tu năng cơ bắt khớp và đảo chiều mượt mà ở các góc biên                                                                                                             |     **PASS**      |
+| **TC06** | Kiểm tra độ ổn định ren khóa chiều cao dưới lực rung                          | Reliability   | Thân quạt giữ độ cao 1.2m cố định khi chạy rung                       | [FAIL] Kết quả không ổn định, khi điều chỉnh tăng chiều cao quá mức thì thân quạt bắt đầu rung lắc tương đối mạnh khi hoạt động, có thể dẫn đến ngã đổ quạt                |     **FAIL**      |
+| **TC07** | Kiểm tra chạy tải cao liên tục và ngắt quá nhiệt                              | Safety        | Động cơ chạy ổn định hoặc ngắt bảo vệ an toàn cuộn dây                | [PASS] Động cơ hoạt động liên tục ổn định trong phòng kín nóng, không bị quá nhiệt                                                                                         |     **PASS**      |
+| **TC08** | Kiểm tra độ vững chãi đế quạt trên sàn phẳng                                  | Stability     | Đế vững chãi, quạt bám mặt sàn không rung lắc quá mức                 | [PASS] Đế quạt bám chắc và đứng vững vàng trên sàn phẳng                                                                                                                   |     **PASS**      |
+| **TC09** | Kiểm tra độ vững chãi khi đặt quạt trên vật cao 10cm                          | Physical Edge | Quạt đứng vững, không bị mất thăng bằng hay đổ ngã                    | [FAIL] Khi quạt chạy tốc độ lớn nhất và xoay tu năng, lực rung cơ học và lực ly tâm làm quạt mất trọng tâm và đổ ngã khỏi vật cao 10cm                                     |     **FAIL**      |
+| **TC10** | Kiểm tra sự ổn định nguồn điện khi di chuyển quạt khiến dây nguồn dịch chuyển | Physical Edge | Kết nối nguồn ổn định, quạt tiếp tục chạy bình thường không gián đoạn | [FAIL] Kết quả thực tế quạt sẽ tự tắt vì dây nguồn đã bị cong và dẫn đến quạt không kết nối được với nguồn điện                                                            |     **FAIL**      |
+| **TC11** | Kiểm tra ngắt hoàn toàn hoạt động khi tắt quạt                                | Physical Edge | Dừng ngay lập tức, cánh quạt và tu năng ngừng xoay                    | [FAIL] Cánh quạt dừng xoay nhưng quạt vẫn xoay ngang do lỗi đấu nối dây điện mạch điều khiển điều hướng khiến mô-tơ đảo tiếp tục có điện                                   |     **FAIL**      |
+| **TC12** | Kiểm tra túp năng bật/tắt liên tục nhiều lần                                  | Functional    | Cơ cấu bắt khớp và nhả khớp tu năng mượt mà                           | [FAIL] Hoạt động không ổn định. Khi thực hiện giật/nhả tu năng và úp mở (ngẩng/cúi) liên tục thì cánh quạt có thể va chạm với lồng bảo vệ dẫn đến nguy hiểm cho người dùng |     **FAIL**      |
+| **TC13** | Kiểm tra độ cứng lồng quạt kim loại bảo vệ                                    | Safety        | Không biến dạng chạm cánh khi tác dụng lực nhẹ (~20N)                 | [PASS] Lồng quạt thép sơn tĩnh điện chịu lực tốt, không biến dạng chạm cánh                                                                                                |     **PASS**      |
+| **TC14** | Kiểm tra cơ cấu khớp xoay đứng đầu quạt                                       | Functional    | Giữ nguyên nấc điều chỉnh ngẩng/cúi của đầu quạt                      | [PASS] Đầu quạt định vị góc ngẩng/cúi chắc chắn, không bị xê dịch tự do khi chạy tốc độ cao                                                                                |     **PASS**      |
+| **TC15** | Kiểm tra độ ồn động cơ ở khoảng cách 1m                                       | Performance   | Độ ồn ở mức 1 <38dB, mức 2 <45dB, mức 3 <52dB                         | [PASS] Độ ồn đo được ở khoảng cách 1m lần lượt là: 36dB (Silent), 43dB, 49dB (đạt chuẩn kỹ thuật thiết kế)                                                                 |     **PASS**      |
 
 ### 3. Danh sách 3 Edge Cases mà AI không tìm ra
 
 #### Edge Case 1: Rung lắc mất trọng tâm cơ học gây đổ ngã khi đặt đế quạt không phẳng trên bục cao 10cm
+
 - **Mô tả mục tiêu kiểm thử:** Kiểm thử độ vững chãi và cân bằng động của quạt đứng khi đặt đế quạt trên một bục gỗ hoặc vật thể cao khoảng 10cm có diện tích nhỏ hơn đế quạt và bật hoạt động ở tốc độ lớn nhất (tốc độ 3) kết hợp tu năng xoay ngang.
 - **Minh chứng ảnh đoạn chat AI bỏ sót:**
   ![Đoạn chat AI bỏ sót Edge Case 1](../assets/req3_physical_product/evidence/AI_miss_test_case.png)
 - **Giải thích lý do AI bỏ sót:** AI không thể phát hiện lỗi này vì nó không có nhận thức vật lý thực tế về vị trí trọng tâm của thiết bị quạt cao 1.2m và sự tác động của lực cơ học ly tâm phát sinh khi tu năng xoay trên một diện tích đế nâng đỡ cao 10cm không thăng bằng trong không gian 3D. AI mặc định giả định thiết bị luôn được đặt trên mặt phẳng thăng bằng lý tưởng hoàn hảo.
 
 #### Edge Case 2: Tiếp điểm nguồn điện chập chờn / mất kết nối khi di chuyển quạt làm dây nguồn uốn cong dịch chuyển
+
 - **Mô tả mục tiêu kiểm thử:** Kiểm thử độ tin cậy của kết nối điện và dây nguồn khi dịch chuyển vị trí quạt đứng khiến dây nguồn dịch chuyển, uốn cong cơ học ở phần đầu giắc cắm hoặc đuôi phích cắm.
 - **Minh chứng ảnh đoạn chat AI bỏ sót:**
   ![Đoạn chat AI bỏ sót Edge Case 2](../assets/req3_physical_product/evidence/AI_miss_test_case.png)
 - **Giải thích lý do AI bỏ sót:** AI không thể phát hiện lỗi này vì đây là hành vi lỗi vật lý phát sinh do sự uốn cong biến dạng cơ học của dây nguồn và tiếp xúc cơ học thực tế tại vị trí giắc cắm trong không gian thực. AI chỉ hoạt động dựa trên các tài liệu lý thuyết và kịch bản tĩnh phần mềm, do đó không thể dự đoán được tình trạng tiếp xúc nguồn điện phụ thuộc vào linh kiện vật lý thực tế của thiết bị.
 
 #### Edge Case 3: Trạng thái không đồng bộ khi tắt nguồn quạt khiến cánh quạt dừng nhưng quạt vẫn xoay ngang
+
 - **Mô tả mục tiêu kiểm thử:** Kiểm thử cơ chế ngắt nguồn và đồng bộ tắt hoàn toàn của quạt khi nhấn phím OFF khi quạt đang hoạt động ở tốc độ 2 kết hợp bật tu năng xoay ngang.
 - **Minh chứng ảnh đoạn chat AI bỏ sót:**
   ![Đoạn chat AI bỏ sót Edge Case 3](../assets/req3_physical_product/evidence/AI_miss_test_case.png)
@@ -292,7 +295,7 @@ _(Tìm 20 lỗi phần mềm được công bố từ 2022-2026. Tối thiểu 5
 
 ### 4. Video Thực thi Kiểm thử
 
-*(Quay video ngắn dưới 60 giây cho các test cases lỗi trên thiết bị thật, có giọng thuyết minh cá nhân)*
+_(Quay video ngắn dưới 60 giây cho các test cases lỗi trên thiết bị thật, có giọng thuyết minh cá nhân)_
 
 - **Danh sách Link video (YouTube Unlisted):**
   1. [Video TC06 - Phát hiện lỗi rung lắc mạnh và ngã đổ khi tăng chiều cao quá mức] (Link: https://youtu.be/...)
@@ -303,13 +306,13 @@ _(Tìm 20 lỗi phần mềm được công bố từ 2022-2026. Tối thiểu 5
 
 ## PHẦN 4: Phê bình AI
 
-Trong quá trình thực hiện thiết kế test cases cho thiết bị cơ học vật lý, tôi nhận thấy các mô hình AI (như ChatGPT, Gemini) bộc lộ nhiều điểm yếu cốt lõi do sự hạn chế về nhận thức vật lý thực tế (physical embodiment).
+Trong quá trình hoàn thành bài tập kiểm thử này, tôi nhận thấy các mô hình AI như Gemini và Claude thể hiện rõ rệt cả ưu điểm lẫn những hạn chế cốt lõi trong việc hỗ trợ kỹ sư kiểm thử.
 
-Thứ nhất, AI bị "ảo tưởng lý thuyết" và thiên kiến phần mềm. AI có xu hướng áp dụng các tư duy kiểm thử phần mềm thuần túy (như boundary value, equivalence partitioning trên dữ liệu đầu vào số) vào phần cứng vật lý, tạo ra các test cases rất máy móc và sáo rỗng. Nó hoàn toàn bỏ qua các yếu tố môi trường thực tế như nhiệt độ làm co giãn nhựa, ma sát biến thiên, độ dốc sàn, độ ẩm chất bôi trơn, hay nhiễu điện từ.
+Đối với Gemini, mô hình thực hiện khá tốt các yêu cầu cơ bản như thiết lập cấu trúc thư mục dự án, viết báo cáo hay phác thảo cấu trúc tài liệu. Tuy nhiên, trong việc tìm kiếm thông tin thực tế cho Yêu cầu 1 và Yêu cầu 2, Gemini bộc lộ hạn chế nghiêm trọng khi liên tục cung cấp các liên kết nguồn bị lỗi dẫn đến trang không tồn tại ('Page Not Found' hoặc 'Page Unavailable'). Đáng chú ý, khi được phản hồi về các link chết này, Gemini bắt đầu ảo giác và tự bịa ra các thông tin không liên quan; ví dụ, thay vì tìm các sự cố phần mềm kỹ thuật, nó lại cung cấp các liên kết trỏ tới các trang tin tức xã hội khác như thể thao hay tai nạn.
 
-Thứ hai, AI không có khả năng mô hình hóa sự tích lũy mài mòn cơ học theo thời gian (mechanical wear and tear) and lực quán tính động học. Các kịch bản biên sâu sắc liên quan đến lực kéo căng của dây nguồn khi quạt quay hay sự lệch tâm trọng lực gây kẹt tu năng đều là những kịch bản bắt nguồn từ sự tương tác vật lý phức tạp trong không gian 3D mà AI hoàn toàn bỏ sót.
+Ngược lại, Claude thực hiện rất tốt việc tìm kiếm và phân tích các lỗi phần mềm thực tế với độ chính xác nguồn cao. Tuy nhiên, Claude lại bị hạn chế lớn về số lượng token/tin nhắn phản hồi trong phiên làm việc. Ngoài ra, Claude có xu hướng tự ý hoạt động (over-engineering); ví dụ, khi tôi chỉ yêu cầu phản hồi văn bản thông tin thô, Claude lại tự động thiết kế nguyên một trang dashboard dưới dạng mã HTML phức tạp.
 
-Bài học kinh nghiệm lớn nhất tôi rút ra là không bao giờ tin cậy tuyệt đối vào test cases do AI tạo ra cho các sản phẩm vật lý. AI chỉ phù hợp để dựng khung kiểm thử cơ bản (như On/Off, chuyển chế độ), còn các bài test mang tính sống còn về độ tin cậy cơ học, an toàn cháy nổ và ứng phó môi trường thực tế bắt buộc phải do kỹ sư kiểm thử con người thiết kế và tinh chỉnh dựa trên kinh nghiệm thực tế.
+Tóm lại, bài học kinh nghiệm tôi rút ra là AI chỉ đóng vai trò trợ lý tăng hiệu suất ban đầu. Trong kiểm thử phần mềm, sự cẩn trọng và giám sát độc lập của con người vẫn là yếu tố quyết định hàng đầu để phát hiện lỗi ảo giác của AI và đảm bảo tính chính xác kỹ thuật tuyệt đối.
 
 ---
 
