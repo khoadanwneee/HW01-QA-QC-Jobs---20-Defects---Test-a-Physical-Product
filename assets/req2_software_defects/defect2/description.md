@@ -1,0 +1,8 @@
+# Lỗi 2: Southwest Airlines Holiday Meltdown (Tháng 12/2022)
+
+* **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/2022_Southwest_Airlines_scheduling_crisis)
+* **Mô tả lỗi:** Hệ thống lập lịch phi hành đoàn 'SkySolver' (phần mềm legacy từ những năm 1990) bị quá tải và sập hoàn toàn do không thể tự động xử lý và phân công lại hàng nghìn phi hành đoàn bị kẹt do thời tiết tuyết rơi nghiêm trọng. Phần mềm thiếu khả năng tích hợp dữ liệu thời gian thực và không có cơ chế tự động hóa phân bổ hợp lý khi có biến động lớn.
+* **Độ nghiêm trọng (Severity - ISTQB):** Critical (Nguy kịch). Lỗi ở tính năng cốt lõi (Crew Scheduling) gây sụp đổ hoàn toàn quy trình vận hành dịch vụ bay của hãng hàng không mà không có giải pháp tránh kịp thời, ảnh hưởng nghiêm trọng đến hoạt động kinh doanh cốt lõi của doanh nghiệp.
+* **Hậu quả:** Southwest Airlines phải hủy hơn 16.700 chuyến bay, ảnh hưởng tới hơn 2 triệu khách hàng trong kỳ nghỉ lễ, bị phạt hành chính 140 triệu USD và thiệt hại tài chính tổng cộng hơn 1 tỷ USD.
+* **Giải pháp khắc phục:** Southwest cam kết đầu tư vào hệ thống crew scheduling mới với tự động hóa thời gian thực, tích hợp dữ liệu điểm-đến-điểm, và cải thiện giao tiếp thời gian khủng hoảng. Nộp phạt 140 triệu USD vào quỹ bảo vệ hành khách.
+* **Nhận diện AI Ảo giác / Thiên vị:** AI thường quy toàn bộ sự kiện cho 'thời tiết xấu bất thường' mà ít nhấn mạnh đến nợ kỹ thuật hệ thống đã tích lũy hơn thập kỷ. Đây là dạng thiên vị gần đây (recency bias) — AI tập trung vào trigger ngay lập tức (bão tuyết) thay vì nguyên nhân gốc (technical debt). Ngoài ra, AI đôi khi ảo giác rằng Southwest đã 'nhanh chóng nâng cấp hệ thống ngay sau vụ việc' — trong khi thực tế quá trình này kéo dài nhiều năm.

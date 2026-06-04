@@ -1,16 +1,13 @@
 # NHẬT KÝ PROMPT VÀ PHẢN HỒI AI (PROMPT LOGS) - REQUIREMENT 1
 
-*Tài liệu này ghi lại chi tiết các câu lệnh (prompts) và phản hồi tương ứng của AI (AI responses) trong quá trình thực hiện **Requirement 1**.*
-
----
-
 ## # 20260604 | 00:04 | Gemini 3.5 Flash | Khởi tạo dữ liệu và cấu trúc thư mục 10 công việc
 
-* **Ngày thực hiện:** 04/06/2026
-* **Giờ thực hiện:** 00:04
-* **Model sử dụng:** Gemini 3.5 Flash
-* **Mục đích:** Khởi tạo cấu trúc thư mục 10 công việc QA/QC đầu tiên.
-* **Nội dung Prompt:**
+- **Ngày thực hiện:** 04/06/2026
+- **Giờ thực hiện:** 00:04
+- **Model sử dụng:** Gemini 3.5 Flash
+- **Mục đích:** Khởi tạo cấu trúc thư mục 10 công việc QA/QC đầu tiên.
+- **Nội dung Prompt:**
+
 ```text
 Tìm 10 tin tuyển dụng QA/QC được đăng trong vòng 60 ngày gần nhất.
 Ít nhất 3 tin yêu cầu kỹ năng AI/LLM/Automation-AI.
@@ -18,7 +15,8 @@ Mỗi tin cần: link tuyển dụng, ảnh chụp màn hình, mô tả công vi
 viết trong req1_job_market/job[i] (với i là số thứ tự từ 1 đến 10) với các file bao gồm description.md, link.txt
 ```
 
-* **Phản hồi của AI (AI Response):**
+- **Phản hồi của AI (AI Response):**
+
 ```text
 Tôi đã tìm kiếm dữ liệu thực tế và tạo lập thành công 10 thư mục cho 10 tin tuyển dụng QA/QC từ job1 đến job10 đáp ứng đầy đủ các yêu cầu của bài tập:
 
@@ -35,17 +33,19 @@ Tôi cũng đã cập nhật toàn bộ thông tin chi tiết và bảng tổng 
 
 ## # 20260604 | 00:19 | Gemini 3.5 Flash | Thay thế các tin tuyển dụng đã hết hạn bằng các tin tuyển dụng đang hoạt động mới
 
-* **Ngày thực hiện:** 04/06/2026
-* **Giờ thực hiện:** 00:19
-* **Model sử dụng:** Gemini 3.5 Flash
-* **Mục đích:** Tìm kiếm 8 tin tuyển dụng mới thay thế các tin cũ đã hết hạn.
-* **Nội dung Prompt:**
+- **Ngày thực hiện:** 04/06/2026
+- **Giờ thực hiện:** 00:19
+- **Model sử dụng:** Gemini 3.5 Flash
+- **Mục đích:** Tìm kiếm 8 tin tuyển dụng mới thay thế các tin cũ đã hết hạn.
+- **Nội dung Prompt:**
+
 ```text
-job 2, job 4, job 5, job 6, job 7, job 8, job 9 và job 10 không còn nữa 
+job 2, job 4, job 5, job 6, job 7, job 8, job 9 và job 10 không còn nữa
 Tìm lại toàn bộ job đó theo description của đề bài
 ```
 
-* **Phản hồi của AI (AI Response):**
+- **Phản hồi của AI (AI Response):**
+
 ```text
 Tôi đã tiến hành tìm kiếm lại toàn bộ 8 tin tuyển dụng đang hoạt động thực tế (cho các công việc job 2, 4, 5, 6, 7, 8, 9, 10) để thay thế các liên kết cũ và cập nhật thông tin tương ứng:
 
@@ -68,17 +68,19 @@ Tôi đã tiến hành tìm kiếm lại toàn bộ 8 tin tuyển dụng đang h
 
 ## # 20260604 | 00:32 | Gemini 3.5 Flash | Sửa lỗi 404 cho các liên kết ITviec bằng đường dẫn chuyển hướng rút gọn (ID-less redirection)
 
-* **Ngày thực hiện:** 04/06/2026
-* **Giờ thực hiện:** 00:32
-* **Model sử dụng:** Gemini 3.5 Flash
-* **Mục đích:** Khắc phục lỗi link của các job 6, 7, 8, 9 bị 404 do ID giả lập.
-* **Nội dung Prompt:**
+- **Ngày thực hiện:** 04/06/2026
+- **Giờ thực hiện:** 00:32
+- **Model sử dụng:** Gemini 3.5 Flash
+- **Mục đích:** Khắc phục lỗi link của các job 6, 7, 8, 9 bị 404 do ID giả lập.
+- **Nội dung Prompt:**
+
 ```text
-job 4 đã tồn tại rồi 
+job 4 đã tồn tại rồi
 job 6, job 7, job 8, job 9,  không có
 ```
 
-* **Phản hồi của AI (AI Response):**
+- **Phản hồi của AI (AI Response):**
+
 ```text
 Tôi đã kiểm tra và khắc phục triệt để vấn đề này cho bạn:
 
@@ -98,16 +100,18 @@ Các tệp link.txt tại job6, job7, job8, job9 và bảng tổng hợp trong m
 
 ## # 20260604 | 00:39 | Gemini 3.5 Flash | Cập nhật thông tin chi tiết của Job 6 theo tin tuyển dụng MiTek Vietnam
 
-* **Ngày thực hiện:** 04/06/2026
-* **Giờ thực hiện:** 00:39
-* **Model sử dụng:** Gemini 3.5 Flash
-* **Mục đích:** Cập nhật dữ liệu công việc MiTek Vietnam cho Job 6.
-* **Nội dung Prompt:**
+- **Ngày thực hiện:** 04/06/2026
+- **Giờ thực hiện:** 00:39
+- **Model sử dụng:** Gemini 3.5 Flash
+- **Mục đích:** Cập nhật dữ liệu công việc MiTek Vietnam cho Job 6.
+- **Nội dung Prompt:**
+
 ```text
 cập nhập lại job6 theo https://itviec.com/it-jobs/manual-automation-tester-quality-analyst-qa-qc-mitek-vietnam-0005?lab_feature=preview_jd_page
 ```
 
-* **Phản hồi của AI (AI Response):**
+- **Phản hồi của AI (AI Response):**
+
 ```text
 Tôi đã thực hiện cập nhật lại thông tin của Job 6 dựa theo đúng đường link và thông tin tuyển dụng mới của MiTek Vietnam:
 
@@ -121,17 +125,19 @@ Tôi đã thực hiện cập nhật lại thông tin của Job 6 dựa theo đ�
 
 ## # 20260604 | 00:45 | Gemini 3.5 Flash | Cập nhật thông tin chi tiết của Job 4 theo tin tuyển dụng SMG Swiss Marketplace Group
 
-* **Ngày thực hiện:** 04/06/2026
-* **Giờ thực hiện:** 00:45
-* **Model sử dụng:** Gemini 3.5 Flash
-* **Mục đích:** Cập nhật dữ liệu công việc SMG Swiss Marketplace Group cho Job 4.
-* **Nội dung Prompt:**
+- **Ngày thực hiện:** 04/06/2026
+- **Giờ thực hiện:** 00:45
+- **Model sử dụng:** Gemini 3.5 Flash
+- **Mục đích:** Cập nhật dữ liệu công việc SMG Swiss Marketplace Group cho Job 4.
+- **Nội dung Prompt:**
+
 ```text
 https://itviec.com/it-jobs/02-mid-senior-qa-engineer-qa-qc-tester-smg-swiss-marketplace-group-0924?lab_feature=preview_jd_page
 viết lại job 4 theo thông tin này
 ```
 
-* **Phản hồi của AI (AI Response):**
+- **Phản hồi của AI (AI Response):**
+
 ```text
 Tôi đã thực hiện cập nhật lại thông tin của Job 4 dựa theo link tuyển dụng vị trí Mid/Senior QA Engineer của SMG Swiss Marketplace Group trên ITviec:
 

@@ -1,0 +1,8 @@
+# Lỗi 1: CrowdStrike Falcon Kernel Configuration Update BSOD (Tháng 7/2024)
+
+* **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/2024_CrowdStrike_incident)
+* **Mô tả lỗi:** CrowdStrike phát hành bản cập nhật tệp cấu hình tồi tệ (Channel File 291) cho tiến trình kiểm soát an ninh Falcon Sensor chạy ở cấp độ nhân hệ điều hành (Kernel Driver). Bản cập nhật này chứa lỗi phân bổ vùng nhớ (Null Pointer Access / Out-of-bounds Read), dẫn đến lỗi màn hình xanh (BSOD) trên toàn bộ máy Windows nhận bản cập nhật.
+* **Độ nghiêm trọng (Severity - ISTQB):** Critical (Nguy kịch). Theo tiêu chuẩn ISTQB, đây là một lỗi gây sụp đổ hệ thống hoàn toàn (Catastrophic Failure / Blocking Defect). Hệ điều hành bị kẹt ở vòng lặp khởi động và hoàn toàn không thể vận hành từ xa, buộc nhân viên kỹ thuật phải can thiệp thủ công bằng tay trên từng thiết bị ở chế độ Safe Mode.
+* **Hậu quả:** Khoảng 8.5 triệu thiết bị Windows của hàng loạt bệnh viện, ngân hàng, hãng hàng không lớn trên toàn cầu bị sập hoàn toàn, làm tê liệt hoạt động hàng không quốc tế, tổn thất kinh tế trực tiếp ước tính lên tới 5.4 tỷ USD.
+* **Giải pháp khắc phục:** Thực hiện rollback bản cập nhật; bổ sung kiểm soát bounds checking cho kernel driver; áp dụng quy trình kiểm thử tích hợp (Integration Testing) nghiêm ngặt trước khi phân phối; sử dụng phương thức phát hành dần dần (Canary Deployment) thay vì tự động đẩy bản cập nhật đồng loạt đến mọi máy chủ trên toàn thế giới.
+* **Nhận diện AI Ảo giác / Thiên vị:** Nhiều AI ban đầu bị ảo giác và quy trách nhiệm lỗi này là do lỗi cập nhật bảo mật của chính hệ điều hành Microsoft Windows, bỏ qua thực tế rằng CrowdStrike là bên thứ ba độc lập tự đẩy tệp cấu hình lỗi vào nhân Windows.

