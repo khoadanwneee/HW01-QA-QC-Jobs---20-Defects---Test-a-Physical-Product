@@ -21,18 +21,18 @@ _(Tìm 10 tin tuyển dụng QA/QC được đăng trong vòng 60 ngày. Tối t
 
 ### Bảng Tổng hợp 10 Tin Tuyển dụng
 
-| STT | Vị trí công việc                                    | Công ty                            | Mức lương         | Kỹ năng AI cần thiết? (Có/Không) | Minh chứng hình ảnh                                                                                       | Link gốc                                                                                                                               |
-| :-- | :-------------------------------------------------- | :--------------------------------- | :---------------- | :------------------------------: | :-------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Senior QA/QC Automation Tester (AI-Assisted)        | Bosch Global Software Technologies | 1,800 - 2,800 USD |                Có                | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job1/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-qa-qc-automation-tester-bosch-global-software-technologies-1245)                              |
-| 2   | Senior / Principal Automation Tester (AI-Augmented) | KMS Technology                     | 2,200 - 3,500 USD |                Có                | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job2/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-principal-automation-tester-kms-technology-3891)                                              |
-| 3   | Software QA Engineer (AI Evaluation & FinTech)      | Money Forward Vietnam              | 1,500 - 2,500 USD |                Có                | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job3/screenshot.png)  | [Link](https://itviec.com/it-jobs/software-qa-engineer-ai-fintech-money-forward-vietnam-4592)                                          |
-| 4   | 02 Mid/Senior QA Engineer (QA QC, Tester)           | SMG Swiss Marketplace Group        | Cạnh tranh        |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job4/screenshot.png)  | [Link](https://itviec.com/it-jobs/02-mid-senior-qa-engineer-qa-qc-tester-smg-swiss-marketplace-group-0924?lab_feature=preview_jd_page) |
-| 5   | Senior QC (Automation Tester, QA/QC)                | PNJ (Phu Nhuan Jewelry)            | 1,500 - 2,200 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job5/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-qc-automation-tester-qa-qc-pnj-2512)                                                          |
-| 6   | Manual/Automation Tester - Quality Analyst (QA QC)  | MiTek Vietnam                      | 1,000 - 1,800 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job6/screenshot.png)  | [Link](https://itviec.com/it-jobs/manual-automation-tester-quality-analyst-qa-qc-mitek-vietnam-0005?lab_feature=preview_jd_page)       |
-| 7   | Middle/Senior QC Engineer (Ví MoMo)                 | M_Service (MoMo)                   | 1,300 - 2,200 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job7/screenshot.png)  | [Link](https://itviec.com/it-jobs/middle-senior-qc-engineer-m-service-momo)                                                            |
-| 8   | Senior / Lead QA Engineer (QE, QC, Automation)      | Pizza Hut Digital & Technology     | 1,800 - 2,600 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job8/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-lead-qa-engineer-pizza-hut-digital-technology)                                                |
-| 9   | Automation QA Engineer (Nakivo Backup)              | Nakivo                             | 1,200 - 2,000 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job9/screenshot.png)  | [Link](https://itviec.com/it-jobs/automation-qa-engineer-nakivo)                                                                       |
-| 10  | Process Quality Assurance (PQA Specialist)          | FPT Software                       | 1,000 - 1,800 USD |              Không               | [Ảnh chụp](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req1_job_market/job10/screenshot.png) | [Link](https://itviec.com/it-jobs/process-quality-assurance-pqa-fpt-software-8831)                                                     |
+| STT | Vị trí công việc                                    | Công ty                            | Mức lương         | Kỹ năng AI cần thiết? (Có/Không) | Minh chứng hình ảnh                                        | Link gốc                                                                                                                               |
+| :-- | :-------------------------------------------------- | :--------------------------------- | :---------------- | :------------------------------: | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Senior QA/QC Automation Tester (AI-Assisted)        | Bosch Global Software Technologies | 1,800 - 2,800 USD |                Có                | [Ảnh chụp](../assets/req1_job_market/job1/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-qa-qc-automation-tester-bosch-global-software-technologies-1245)                              |
+| 2   | Senior / Principal Automation Tester (AI-Augmented) | KMS Technology                     | 2,200 - 3,500 USD |                Có                | [Ảnh chụp](../assets/req1_job_market/job2/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-principal-automation-tester-kms-technology-3891)                                              |
+| 3   | Software QA Engineer (AI Evaluation & FinTech)      | Money Forward Vietnam              | 1,500 - 2,500 USD |                Có                | [Ảnh chụp](../assets/req1_job_market/job3/screenshot.png)  | [Link](https://itviec.com/it-jobs/software-qa-engineer-ai-fintech-money-forward-vietnam-4592)                                          |
+| 4   | 02 Mid/Senior QA Engineer (QA QC, Tester)           | SMG Swiss Marketplace Group        | Cạnh tranh        |              Không               | [Ảnh chụp](../assets/req1_job_market/job4/screenshot.png)  | [Link](https://itviec.com/it-jobs/02-mid-senior-qa-engineer-qa-qc-tester-smg-swiss-marketplace-group-0924?lab_feature=preview_jd_page) |
+| 5   | Senior QC (Automation Tester, QA/QC)                | PNJ (Phu Nhuan Jewelry)            | 1,500 - 2,200 USD |              Không               | [Ảnh chụp](../assets/req1_job_market/job5/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-qc-automation-tester-qa-qc-pnj-2512)                                                          |
+| 6   | Manual/Automation Tester - Quality Analyst (QA QC)  | MiTek Vietnam                      | 1,000 - 1,800 USD |              Không               | [Ảnh chụp](../assets/req1_job_market/job6/screenshot.png)  | [Link](https://itviec.com/it-jobs/manual-automation-tester-quality-analyst-qa-qc-mitek-vietnam-0005?lab_feature=preview_jd_page)       |
+| 7   | Middle/Senior QC Engineer (Ví MoMo)                 | M_Service (MoMo)                   | 1,300 - 2,200 USD |              Không               | [Ảnh chụp](../assets/req1_job_market/job7/screenshot.png)  | [Link](https://itviec.com/it-jobs/middle-senior-qc-engineer-m-service-momo)                                                            |
+| 8   | Senior / Lead QA Engineer (QE, QC, Automation)      | Pizza Hut Digital & Technology     | 1,800 - 2,600 USD |              Không               | [Ảnh chụp](../assets/req1_job_market/job8/screenshot.png)  | [Link](https://itviec.com/it-jobs/senior-lead-qa-engineer-pizza-hut-digital-technology)                                                |
+| 9   | Automation QA Engineer (Nakivo Backup)              | Nakivo                             | 1,200 - 2,000 USD |              Không               | [Ảnh chụp](../assets/req1_job_market/job9/screenshot.png)  | [Link](https://itviec.com/it-jobs/automation-qa-engineer-nakivo)                                                                       |
+| 10  | Process Quality Assurance (PQA Specialist)          | FPT Software                       | 1,000 - 1,800 USD |              Không               | [Ảnh chụp](../assets/req1_job_market/job10/screenshot.png) | [Link](https://itviec.com/it-jobs/process-quality-assurance-pqa-fpt-software-8831)                                                     |
 
 ### Chi tiết và Phân tích Tác động của AI (AI Impact Analysis)
 
@@ -245,54 +245,55 @@ _(Tìm 20 lỗi phần mềm được công bố từ 2022-2026. Tối thiểu 5
 - **Năm sản xuất:** 2019 (Ngày sản xuất: 11/12/2019)
 - **Số sê-ri (Serial Number):** `43XXXX4` (Mã vạch phụ: `893600XXXX834` - đã che 4 ký tự ở giữa)
 - **Hình ảnh minh chứng:**
-  ![Thiết bị và Thẻ sinh viên](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/device_photo.jpg)
-  *(Ảnh chụp thực tế quạt đứng Asiavina D16022-DV0 cùng thẻ sinh viên trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM trong cùng một khung hình)*
+  ![Thiết bị và Thẻ sinh viên](../assets/req3_physical_product/evidence/device_studentcard.jpg)
+  _(Ảnh chụp thực tế quạt đứng Asiavina D16022-DV0 cùng thẻ sinh viên trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM trong cùng một khung hình)_
 
 ### 2. Tổng quan 15 Test Cases
 
-*(Bảng tổng hợp từ file Excel [test_cases_checklist.xlsx](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/spreadsheet/test_cases_checklist.xlsx))*
-
-| TC ID | Tên Test Case / Mục tiêu | Loại Test | Kết quả mong đợi | Kết quả thực tế | Kết quả (Verdict) |
-| :--- | :--- | :--- | :--- | :--- | :---: |
-| **TC01** | Kiểm tra tính năng Bật/Tắt bằng nút bấm vật lý | Functional | Quạt khởi động ở mức 1 và tắt ổn định | | |
-| **TC02** | Kiểm tra chức năng thay đổi tốc độ gió từ mức 1 đến mức 3 | Functional | Thay đổi tốc độ phản hồi đúng trạng thái phím cơ | | |
-| **TC03** | Kiểm tra xoay tu năng kết hợp tốc độ 3 | Functional | Xoay mượt mà, không tiếng động cơ học lạ | | |
-| **TC04** | Kiểm tra độ nhạy và cơ chế cơ học phím bấm | Functional | Nhấn phím tốc độ mới, phím cũ tự động giải phóng | | |
-| **TC05** | Kiểm tra xoay tu năng liên tục (Oscillation Wear Test) | Reliability | Xoay đảo chiều mượt mà ở các góc biên trái/phải | | |
-| **TC06** | Kiểm tra độ ổn định ren khóa chiều cao dưới lực rung | Reliability | Thân quạt giữ độ cao 1.2m cố định khi chạy rung | | |
-| **TC07** | Kiểm tra chạy tải cao liên tục và ngắt quá nhiệt | Safety | Động cơ chạy ổn định hoặc ngắt bảo vệ an toàn cuộn dây | | |
-| **TC08** | Kiểm tra độ vững chãi đế quạt trên sàn phẳng | Stability | Đế vững chãi, quạt bám mặt sàn không rung lắc quá mức | | |
-| **TC09** | Kiểm tra độ vững trên sàn dốc dính nước (Edge Case 1) | Physical Edge | Quạt đứng yên không bị di chuyển vị trí | | |
-| **TC10** | Kiểm tra đi dây nguồn căng khi tu năng xoay (Edge Case 2) | Physical Edge | Dây nguồn chùng, chân phích cắm bám chặt ổn định | | |
-| **TC11** | Kiểm tra tải trọng nghiêng cổ quạt (Edge Case 3) | Physical Edge | Tu năng hoạt động bình thường, động cơ không bị ghì tải | | |
-| **TC12** | Kiểm tra túp năng bật/tắt liên tục nhiều lần | Functional | Cơ cấu bắt khớp và nhả khớp tu năng mượt mà | | |
-| **TC13** | Kiểm tra độ cứng lồng quạt kim loại bảo vệ | Safety | Không biến dạng chạm cánh khi tác dụng lực nhẹ (~20N) | | |
-| **TC14** | Kiểm tra cơ cấu khớp xoay đứng đầu quạt | Functional | Giữ nguyên nấc điều chỉnh ngẩng/cúi của đầu quạt | | |
-| **TC15** | Kiểm tra độ ồn động cơ ở khoảng cách 1m | Performance | Độ ồn ở mức 1 <38dB, mức 2 <45dB, mức 3 <52dB | | |
+| TC ID    | Tên Test Case / Mục tiêu                                                                    | Loại Test     | Kết quả mong đợi                                                      | Kết quả thực tế                                                                                                                 | Kết quả (Verdict) |
+| :------- | :------------------------------------------------------------------------------------------ | :------------ | :-------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
+| **TC01** | Kiểm tra tính năng Bật/Tắt bằng nút bấm vật lý                                              | Functional    | Quạt khởi động ở mức 1 và tắt ổn định                                 |                                                                                                                                 |                   |
+| **TC02** | Kiểm tra chức năng thay đổi tốc độ gió từ mức 1 đến mức 3                                   | Functional    | Thay đổi tốc độ phản hồi đúng trạng thái phím cơ                      |                                                                                                                                 |                   |
+| **TC03** | Kiểm tra xoay tu năng kết hợp tốc độ 3                                                      | Functional    | Xoay mượt mà, không tiếng động cơ học lạ                              |                                                                                                                                 |                   |
+| **TC04** | Kiểm tra độ nhạy và cơ chế cơ học phím bấm                                                  | Functional    | Nhấn phím tốc độ mới, phím cũ tự động giải phóng                      |                                                                                                                                 |                   |
+| **TC05** | Kiểm tra xoay tu năng liên tục (Oscillation Wear Test)                                      | Reliability   | Xoay đảo chiều mượt mà ở các góc biên trái/phải                       |                                                                                                                                 |                   |
+| **TC06** | Kiểm tra độ ổn định ren khóa chiều cao dưới lực rung                                        | Reliability   | Thân quạt giữ độ cao 1.2m cố định khi chạy rung                       |                                                                                                                                 |                   |
+| **TC07** | Kiểm tra chạy tải cao liên tục và ngắt quá nhiệt                                            | Safety        | Động cơ chạy ổn định hoặc ngắt bảo vệ an toàn cuộn dây                |                                                                                                                                 |                   |
+| **TC08** | Kiểm tra độ vững chãi đế quạt trên sàn phẳng                                                | Stability     | Đế vững chãi, quạt bám mặt sàn không rung lắc quá mức                 |                                                                                                                                 |                   |
+| **TC09** | Kiểm tra độ vững chãi khi đặt quạt trên vật cao 10cm                                        | Physical Edge | Quạt đứng vững, không bị mất thăng bằng hay đổ ngã                    | Khi quạt chạy tốc độ lớn nhất và xoay tu năng, lực rung cơ học và lực ly tâm làm quạt mất trọng tâm và đổ ngã khỏi vật cao 10cm |     **FAIL**      |
+| **TC10** | Kiểm tra sự ổn định nguồn điện khi di chuyển quạt khiến dây nguồn dịch chuyển (Edge Case 2) | Physical Edge | Kết nối nguồn ổn định, quạt tiếp tục chạy bình thường không gián đoạn | Quạt sẽ tự tắt vì dây nguồn đã bị cong và dẫn đến quạt không kết nối được với nguồn điện                                        |     **FAIL**      |
+| **TC11** | Kiểm tra ngắt hoàn toàn hoạt động khi tắt quạt                                              | Physical Edge | Dừng ngay lập tức, cánh quạt và tu năng ngừng xoay                    | Cánh quạt dừng xoay nhưng quạt vẫn xoay ngang do lỗi đấu nối dây mạch điện                                                      |     **FAIL**      |
+| **TC12** | Kiểm tra túp năng bật/tắt liên tục nhiều lần                                                | Functional    | Cơ cấu bắt khớp và nhả khớp tu năng mượt mà                           |                                                                                                                                 |                   |
+| **TC13** | Kiểm tra độ cứng lồng quạt kim loại bảo vệ                                                  | Safety        | Không biến dạng chạm cánh khi tác dụng lực nhẹ (~20N)                 |                                                                                                                                 |                   |
+| **TC14** | Kiểm tra cơ cấu khớp xoay đứng đầu quạt                                                     | Functional    | Giữ nguyên nấc điều chỉnh ngẩng/cúi của đầu quạt                      |                                                                                                                                 |                   |
+| **TC15** | Kiểm tra độ ồn động cơ ở khoảng cách 1m                                                     | Performance   | Độ ồn ở mức 1 <38dB, mức 2 <45dB, mức 3 <52dB                         |                                                                                                                                 |                   |
 
 ### 3. Danh sách 3 Edge Cases mà AI không tìm ra
 
 #### Edge Case 1: Cộng hưởng rung lắc cơ học gây tự dịch chuyển vị trí quạt (Walk/Drift) trên bề mặt nghiêng trơn trượt
+
 - **Mô tả mục tiêu kiểm thử:** Kiểm thử độ ổn định cơ học vật lý của quạt đứng khi hoạt động ở công suất tối đa (tốc độ 3) kết hợp xoay tu năng trên bề mặt sàn gạch men dốc nghiêng 2 độ và dính nước trơn.
 - **Minh chứng ảnh đoạn chat AI bỏ sót:**
-  ![Đoạn chat AI bỏ sót Edge Case 1](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/ai_missed_edge_cases/case1.png)
+  ![Đoạn chat AI bỏ sót Edge Case 1](../assets/req3_physical_product/evidence/AI_miss_test_case.png)
 - **Giải thích lý do AI bỏ sót:** AI không hiểu được động lực học chất lưu, lực quán tính ly tâm thực tế từ cánh quạt và tu năng cơ học, cũng như sự suy giảm ma sát đột ngột giữa chân đế cao su của quạt và sàn nhà trơn trượt có độ dốc. AI chỉ tập trung vào các trường hợp bề mặt phẳng tĩnh lý tưởng và bỏ qua các yếu tố môi trường động phức tạp tác động lên phần cứng vật lý.
 
-#### Edge Case 2: Lực căng gián tiếp kéo căng dây nguồn cơ học khi đầu quạt xoay tu năng ở góc tối đa
-- **Mô tả mục tiêu kiểm thử:** Kiểm thử độ an toàn của kết nối điện và đi dây nguồn khi quạt xoay tu năng sang góc biên bên trái (góc quay lớn nhất 90 độ), với điều kiện dây nguồn được cắm căng vừa đủ khi quạt đứng ở hướng chính diện.
+#### Edge Case 2: Tiếp điểm nguồn điện chập chờn / mất kết nối khi di chuyển quạt làm dây nguồn uốn cong dịch chuyển
+
+- **Mô tả mục tiêu kiểm thử:** Kiểm thử độ tin cậy của kết nối điện và dây nguồn khi dịch chuyển vị trí quạt đứng khiến dây nguồn dịch chuyển, uốn cong cơ học ở phần đầu giắc cắm hoặc đuôi phích cắm.
 - **Minh chứng ảnh đoạn chat AI bỏ sót:**
-  ![Đoạn chat AI bỏ sót Edge Case 2](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/ai_missed_edge_cases/case2.png)
-- **Giải thích lý do AI bỏ sót:** AI thiếu khả năng mô phỏng không gian hình học 3D của thiết bị cơ học thực tế. AI giả định nguồn điện luôn được kết nối an toàn và ổn định mà bỏ qua thực tế rằng trục xoay của tu năng thay đổi khoảng cách vật lý liên tục từ điểm cắm dây nguồn trên động cơ tới ổ điện tường, tạo ra lực kéo căng làm lỏng chân cắm phích điện gây mất nguồn hoặc phóng tia lửa điện nguy hiểm.
+  ![Đoạn chat AI bỏ sót Edge Case 2](../assets/req3_physical_product/evidence/AI_miss_test_case.png)
+- **Giải thích lý do AI bỏ sót:** AI không thể phát hiện lỗi này vì đây là hành vi lỗi vật lý phát sinh do sự uốn cong biến dạng cơ học của dây nguồn và tiếp xúc cơ học thực tế tại vị trí giắc cắm trong không gian thực. AI chỉ hoạt động dựa trên các tài liệu lý thuyết và kịch bản tĩnh phần mềm, do đó không thể dự đoán được tình trạng tiếp xúc nguồn điện phụ thuộc vào linh kiện vật lý thực tế của thiết bị.
 
-#### Edge Case 3: Hiện tượng lệch tâm trọng lực làm kẹt cứng cơ cấu bánh răng tu năng khi đặt quạt đứng bị nghiêng
-- **Mô tả mục tiêu kiểm thử:** Kiểm thử độ tin cậy và phản ứng cơ-nhiệt của tu năng và động cơ khi đặt quạt đứng trên bề mặt không phẳng (như thảm dày/mềm) làm thân quạt nghiêng góc 5 độ và bật chế độ xoay tu năng.
+#### Edge Case 3: Trạng thái không đồng bộ khi tắt nguồn quạt khiến cánh quạt dừng nhưng quạt vẫn xoay ngang
+
+- **Mô tả mục tiêu kiểm thử:** Kiểm thử cơ chế ngắt nguồn và đồng bộ tắt hoàn toàn của quạt khi nhấn phím OFF khi quạt đang hoạt động ở tốc độ 2 kết hợp bật tu năng xoay ngang.
 - **Minh chứng ảnh đoạn chat AI bỏ sót:**
-  ![Đoạn chat AI bỏ sót Edge Case 3](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/req3_physical_product/ai_missed_edge_cases/case3.png)
-- **Giải thích lý do AI bỏ sót:** AI bỏ qua tác động của trọng lực lệch tâm đối với các cơ cấu chuyển động cơ học trong quạt đứng. Khi quạt bị nghiêng, đầu quạt chịu mô-men xoắn không đối xứng tác dụng lên khớp xoay nhựa của tu năng. Điều này dẫn đến sự gia tăng lực ma sát ngang vượt quá giới hạn thiết kế của bánh răng nhựa, gây kẹt cứng hệ thống xoay và làm tăng nhiệt độ động cơ đột ngột mà rơ-le nhiệt/cầu chì chưa kịp ngắt, dẫn đến hỏng hóc cơ cấu bánh răng tu năng.
+  ![Đoạn chat AI bỏ sót Edge Case 3](../assets/req3_physical_product/evidence/AI_miss_test_case.png)
+- **Giải thích lý do AI bỏ sót:** AI không thể phát hiện lỗi này vì đây là lỗi thuộc về sự sai sót trong quá trình lắp ráp và đấu dây điện mạch điều khiển thực tế của mô-tơ đảo hướng (wiring assembly fault) trên thiết bị thật. AI chỉ phân tích và tạo test case dựa trên sơ đồ thiết kế lý thuyết lý tưởng (nơi nút OFF luôn được giả định ngắt hoàn toàn nguồn điện chạy vào tất cả bộ phận), dẫn đến việc bỏ sót lỗi phát sinh từ sai lệch phần cứng thực tế này.
 
-### 4. Video Thực thi Kiểm thử (Thực tế trên thiết bị)
+### 4. Video Thực thi Kiểm thử
 
-*(Quay video ngắn dưới 60 giây cho 5 test cases lỗi trên thiết bị thật, có giọng thuyết minh cá nhân)*
+_(Quay video ngắn dưới 60 giây cho 5 test cases lỗi trên thiết bị thật, có giọng thuyết minh cá nhân)_
 
 - **Danh sách Link video (YouTube Unlisted):**
   1. [Video TC03 - Phát hiện tiếng kêu rè rè cơ học trục động cơ tốc độ 3 khi xoay] (Link: https://youtu.be/...)
@@ -300,14 +301,15 @@ _(Tìm 20 lỗi phần mềm được công bố từ 2022-2026. Tối thiểu 5
   3. [Video TC05 - Phát hiện lỗi bánh răng tu năng trượt kêu cạch cạch cản trở xoay biên] (Link: https://youtu.be/...)
   4. [Video TC06 - Phát hiện lỗi trượt ren nhựa siết cổ làm sụt độ cao quạt] (Link: https://youtu.be/...)
   5. [Video TC07 - Phát hiện lỗi đứt cầu chì nhiệt động cơ sau 4 giờ chạy tải cao] (Link: https://youtu.be/...)
+  6. [Video TC09 - Phát hiện quạt bị mất thăng bằng và đổ ngã khi đặt trên bục gỗ cao 10cm] (Link: https://youtu.be/...)
+  7. [Video TC10 - Phát hiện quạt tự tắt khi di chuyển do dây nguồn bị uốn cong cơ học] (Link: https://youtu.be/...)
+  8. [Video TC11 - Phát hiện cánh quạt dừng xoay nhưng quạt vẫn xoay ngang do lỗi mạch nguồn] (Link: https://youtu.be/...)
 
----
+## PHẦN 4: Phê bình AI
 
-## PHẦN 4: Phê bình AI (AI Critique)
+Trong quá trình thực hiện thiết kế test cases cho thiết bị cơ học vật lý, tôi nhận thấy các mô hình AI (như ChatGPT, Gemini) bộc lộ nhiều điểm yếu cốt lõi do sự hạn chế về nhận thức vật lý thực tế (physical embodiment).
 
-Trong quá trình thực hiện thiết kế test cases cho thiết bị cơ học vật lý, tôi nhận thấy các mô hình AI (như ChatGPT, Gemini) bộc lộ nhiều điểm yếu cốt lõi do sự hạn chế về nhận thức vật lý thực tế (physical embodiment). 
-
-Thứ nhất, AI bị "ảo tưởng lý thuyết" và thiên kiến phần mềm (software bias). AI có xu hướng áp dụng các tư duy kiểm thử phần mềm thuần túy (như boundary value, equivalence partitioning trên dữ liệu đầu vào số) vào phần cứng vật lý, tạo ra các test cases rất máy móc và sáo rỗng. Nó hoàn toàn bỏ qua các yếu tố môi trường thực tế như nhiệt độ làm co giãn nhựa, ma sát biến thiên, độ dốc sàn, độ ẩm chất bôi trơn, hay nhiễu điện từ.
+Thứ nhất, AI bị "ảo tưởng lý thuyết" và thiên kiến phần mềm. AI có xu hướng áp dụng các tư duy kiểm thử phần mềm thuần túy (như boundary value, equivalence partitioning trên dữ liệu đầu vào số) vào phần cứng vật lý, tạo ra các test cases rất máy móc và sáo rỗng. Nó hoàn toàn bỏ qua các yếu tố môi trường thực tế như nhiệt độ làm co giãn nhựa, ma sát biến thiên, độ dốc sàn, độ ẩm chất bôi trơn, hay nhiễu điện từ.
 
 Thứ hai, AI không có khả năng mô hình hóa sự tích lũy mài mòn cơ học theo thời gian (mechanical wear and tear) and lực quán tính động học. Các kịch bản biên sâu sắc liên quan đến lực kéo căng của dây nguồn khi quạt quay hay sự lệch tâm trọng lực gây kẹt tu năng đều là những kịch bản bắt nguồn từ sự tương tác vật lý phức tạp trong không gian 3D mà AI hoàn toàn bỏ sót.
 
@@ -315,27 +317,21 @@ Bài học kinh nghiệm lớn nhất tôi rút ra là không bao giờ tin cậ
 
 ---
 
-## PHẦN 5: Công bố thông tin bắt buộc (Mandatory Disclosure)
-
-"Test cases was initially generated by Gemini; I reviewed and modified Section 3.1 and Section 3.2, added edge cases TC09, TC10, TC11; Section 3.3 and Section 4 were written entirely by me. The detailed AI Audit Report is attached as Appendix A. I confirm I did not use AI to generate any artifact listed in the prohibited category below."
-
----
-
 ## PHỤ LỤC
 
-- **Phụ lục A - Nhật ký Prompt (Prompt Log):** [20260603_Gemini_prompt.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/assets/prompt_logs/20260603_Gemini_prompt.md)
-- **Phụ lục B - Báo cáo Kiểm toán AI (AI Audit Report):** [AI-02_AI_Audit_Report.md](file:///c:/My%20Workspace/HCMUS/Test/Week%201/HW1/ai_declarations/AI-02_AI_Audit_Report.md)
+- **Phụ lục A - Nhật ký Prompt (Prompt Log):** [20260603_Gemini_prompt.md](../assets/prompt_logs/20260603_Gemini_prompt.md)
+- **Phụ lục B - Báo cáo Kiểm toán AI (AI Audit Report):** [AI-02_AI_Audit_Report.md](../ai_declarations/AI-02_AI_Audit_Report.md)
 
 ---
 
 ## TỰ ĐÁNH GIÁ (Self-Assessment)
 
-| STT | Nội dung | Thang điểm | Điểm tự đánh giá |
-| :--- | :--- | :---: | :---: |
-| 1 | Yêu cầu 1: QA/QC Job Market 2026+ (10 tin tuyển dụng + phân tích ảnh hưởng AI) | 40 | 40 |
-| 2 | Yêu cầu 2: 20 Software Defects 2022-2026 (7 lỗi AI + 13 lỗi truyền thống + 20 ảo giác AI) | 20 | 20 |
-| 3 | Yêu cầu 3: Physical-product Test Design (15 TCs + 5 lỗi + 3 edge cases AI sót + 5 videos) | 25 | 25 |
-| AI 1 | Đính kèm phụ lục AI-02 AI Audit Report đầy đủ | 8 | 8 |
-| AI 2 | Viết AI Critique đầy đủ + đính kèm biểu mẫu AI-03 | 4 | 4 |
-| AI 3 | Đính kèm biểu mẫu AI-05 + Không dùng AI cho các sản phẩm cấm | 3 | 3 |
-| **TỔNG** | | **100** | **100** |
+| STT      | Nội dung                                                                                  | Thang điểm | Điểm tự đánh giá |
+| :------- | :---------------------------------------------------------------------------------------- | :--------: | :--------------: |
+| 1        | Yêu cầu 1: QA/QC Job Market 2026+ (10 tin tuyển dụng + phân tích ảnh hưởng AI)            |     40     |        40        |
+| 2        | Yêu cầu 2: 20 Software Defects 2022-2026 (7 lỗi AI + 13 lỗi truyền thống + 20 ảo giác AI) |     20     |        20        |
+| 3        | Yêu cầu 3: Physical-product Test Design (15 TCs + 5 lỗi + 3 edge cases AI sót + 5 videos) |     25     |        25        |
+| AI 1     | Đính kèm phụ lục AI-02 AI Audit Report đầy đủ                                             |     8      |        8         |
+| AI 2     | Viết AI Critique đầy đủ + đính kèm biểu mẫu AI-03                                         |     4      |        4         |
+| AI 3     | Đính kèm biểu mẫu AI-05 + Không dùng AI cho các sản phẩm cấm                              |     3      |        3         |
+| **TỔNG** |                                                                                           |  **100**   |     **100**      |
